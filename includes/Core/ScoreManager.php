@@ -61,7 +61,7 @@ class ScoreManager {
 			$wpdb->prepare(
 				"SELECT * FROM (
 					SELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT %d
-				 ) t ORDER BY scanned_at ASC", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				 ) t ORDER BY scanned_at ASC", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				(int) $limit
 			)
 		);
@@ -73,6 +73,7 @@ class ScoreManager {
 		global $wpdb;
 		$table = Database::history_table();
 
-		return $wpdb->get_row( "SELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT 1" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		// Trusted table identifier from Database::history_table(); no request data is interpolated.
+		return $wpdb->get_row( "SELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT 1" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 	}
 }
