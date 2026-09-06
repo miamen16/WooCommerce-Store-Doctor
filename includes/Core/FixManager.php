@@ -139,8 +139,9 @@ class FixManager {
 		global $wpdb;
 		$table = Database::backups_table();
 
+		// $table is a trusted identifier generated internally by Database.
 		$rows = $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
-			$wpdb->prepare( "SELECT * FROM {$table} WHERE batch_id = %s AND reverted = 0", $batch_id )
+			$wpdb->prepare( "SELECT * FROM {$table} WHERE batch_id = %s AND reverted = 0", $batch_id ) // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 		);
 
 		if ( empty( $rows ) ) {
@@ -178,6 +179,7 @@ class FixManager {
 		global $wpdb;
 		$table = Database::backups_table();
 
+		// $table is a trusted identifier generated internally by Database.
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			$wpdb->prepare(
 				"SELECT batch_id, fixer,
@@ -187,7 +189,7 @@ class FixManager {
 				 FROM {$table}
 				 GROUP BY batch_id, fixer
 				 ORDER BY created_at DESC
-				 LIMIT %d",
+				 LIMIT %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				(int) $limit
 			)
 		);
