@@ -5,7 +5,7 @@
  * Description: Diagnose your WooCommerce store. Fix what hurts. Grow what works.
  * Version:     1.0.0-alpha
  * Author:      Mohamed
- * Text Domain: wc-store-doctor
+ * Text Domain: woocommerce-store-doctor
  * Requires Plugins: woocommerce
  * Requires PHP: 7.4
  */
@@ -46,7 +46,7 @@ spl_autoload_register( function ( $class ) {
  */
 function wcsd_woocommerce_missing_notice() {
 	echo '<div class="notice notice-error"><p>';
-	esc_html_e( 'WooCommerce Store Doctor requires WooCommerce to be installed and active.', 'wc-store-doctor' );
+	esc_html_e( 'WooCommerce Store Doctor requires WooCommerce to be installed and active.', 'woocommerce-store-doctor' );
 	echo '</p></div>';
 }
 
