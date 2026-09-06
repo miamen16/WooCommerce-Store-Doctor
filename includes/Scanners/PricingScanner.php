@@ -20,7 +20,7 @@ class PricingScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Pricing', 'wc-store-doctor' );
+		return __( 'Pricing', 'woocommerce-store-doctor' );
 	}
 
 	public function scan() {
@@ -60,7 +60,11 @@ class PricingScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_price',
 				'critical',
-				sprintf( __( 'Product "%s" has no price set.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has no price set.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -72,7 +76,11 @@ class PricingScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'zero_price',
 				'warning',
-				sprintf( __( 'Product "%s" is priced at $0.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" is priced at $0.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -83,7 +91,11 @@ class PricingScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'invalid_sale_price',
 				'warning',
-				sprintf( __( 'Product "%s" has a sale price that is not lower than its regular price.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has a sale price that is not lower than its regular price.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
