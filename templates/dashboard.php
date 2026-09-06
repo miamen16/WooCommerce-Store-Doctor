@@ -58,7 +58,7 @@ if ( $latest ) {
 		<?php else : ?>
 			<?php foreach ( $category_scores as $scanner_id => $cat ) : ?>
 				<div class="wcsd-category-row">
-					<a class="wcsd-category-label" href="<?php echo esc_url( admin_url( 'edit.php?post_type=product&wcsd_scanner=' . rawurlencode( $scanner_id ) ) ); ?>">
+					<a class="wcsd-category-label" href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_scanner=' . rawurlencode( $scanner_id ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
 						<?php echo esc_html( $cat['label'] ); ?>
 					</a>
 					<div class="wcsd-category-bar">
