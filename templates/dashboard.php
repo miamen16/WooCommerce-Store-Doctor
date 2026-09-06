@@ -6,31 +6,31 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$overall = $latest ? (int) $latest->overall_score : 0;
+$wcsd_overall = $latest ? (int) $latest->overall_score : 0;
 
-$health_label = __( 'No scans yet', 'woocommerce-store-doctor' );
+$wcsd_health_label = __( 'No scans yet', 'woocommerce-store-doctor' );
 if ( $latest ) {
-	if ( $overall >= 90 ) {
-		$health_label = __( 'Excellent Health', 'woocommerce-store-doctor' );
-	} elseif ( $overall >= 75 ) {
-		$health_label = __( 'Good Health', 'woocommerce-store-doctor' );
-	} elseif ( $overall >= 50 ) {
-		$health_label = __( 'Needs Attention', 'woocommerce-store-doctor' );
+	if ( $wcsd_overall >= 90 ) {
+		$wcsd_health_label = __( 'Excellent Health', 'woocommerce-store-doctor' );
+	} elseif ( $wcsd_overall >= 75 ) {
+		$wcsd_health_label = __( 'Good Health', 'woocommerce-store-doctor' );
+	} elseif ( $wcsd_overall >= 50 ) {
+		$wcsd_health_label = __( 'Needs Attention', 'woocommerce-store-doctor' );
 	} else {
-		$health_label = __( 'Critical', 'woocommerce-store-doctor' );
+		$wcsd_health_label = __( 'Critical', 'woocommerce-store-doctor' );
 	}
 }
 ?>
 <div class="wrap wcsd-wrap">
-	<h1><?php esc_html_e( 'WooCommerce Store Doctor', 'woocommerce-store-doctor' ); ?></h1>
+	<h1><?php esc_html_e( 'Store Doctor for WooCommerce', 'woocommerce-store-doctor' ); ?></h1>
 
 	<div class="wcsd-score-card">
-		<div class="wcsd-score-circle" data-score="<?php echo esc_attr( $overall ); ?>">
-			<span class="wcsd-score-number"><?php echo esc_html( $overall ); ?></span>
+		<div class="wcsd-score-circle" data-score="<?php echo esc_attr( $wcsd_overall ); ?>">
+			<span class="wcsd-score-number"><?php echo esc_html( $wcsd_overall ); ?></span>
 			<span class="wcsd-score-max">/ 100</span>
 		</div>
 		<div class="wcsd-score-meta">
-			<p class="wcsd-score-label"><?php echo esc_html( $health_label ); ?></p>
+			<p class="wcsd-score-label"><?php echo esc_html( $wcsd_health_label ); ?></p>
 			<p class="wcsd-score-last-scan">
 				<?php
 				if ( $last_scan ) {
@@ -56,9 +56,9 @@ if ( $latest ) {
 		<?php if ( empty( $category_scores ) ) : ?>
 			<p><?php esc_html_e( 'No category data yet — run a scan.', 'woocommerce-store-doctor' ); ?></p>
 		<?php else : ?>
-			<?php foreach ( $category_scores as $scanner_id => $cat ) : ?>
+			<?php foreach ( $category_scores as $wcsd_scanner_id => $cat ) : ?>
 				<div class="wcsd-category-row">
-					<a class="wcsd-category-label" href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_scanner=' . rawurlencode( $scanner_id ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
+					<a class="wcsd-category-label" href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_scanner=' . rawurlencode( $wcsd_scanner_id ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
 						<?php echo esc_html( $cat['label'] ); ?>
 					</a>
 					<div class="wcsd-category-bar">
@@ -93,13 +93,13 @@ if ( $latest ) {
 					</tr>
 				</thead>
 				<tbody>
-					<?php foreach ( array_reverse( $history ) as $row ) : ?>
+					<?php foreach ( array_reverse( $history ) as $wcsd_row ) : ?>
 						<tr>
-							<td><?php echo esc_html( date_i18n( get_option( 'date_format' ), strtotime( $row->scanned_at ) ) ); ?></td>
-							<td><?php echo esc_html( $row->overall_score ); ?>/100</td>
-							<td><?php echo esc_html( $row->issues_critical ); ?></td>
-							<td><?php echo esc_html( $row->issues_warning ); ?></td>
-							<td><?php echo esc_html( $row->issues_suggestion ); ?></td>
+							<td><?php echo esc_html( date_i18n( get_option( 'date_format' ), strtotime( $wcsd_row->scanned_at ) ) ); ?></td>
+							<td><?php echo esc_html( $wcsd_row->overall_score ); ?>/100</td>
+							<td><?php echo esc_html( $wcsd_row->issues_critical ); ?></td>
+							<td><?php echo esc_html( $wcsd_row->issues_warning ); ?></td>
+							<td><?php echo esc_html( $wcsd_row->issues_suggestion ); ?></td>
 						</tr>
 					<?php endforeach; ?>
 				</tbody>
