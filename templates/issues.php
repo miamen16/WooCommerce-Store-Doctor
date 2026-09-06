@@ -40,7 +40,7 @@ $severity_icons = array(
 					<tr>
 						<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $row->type ) ) ); ?></td>
 						<td>
-							<a href="<?php echo esc_url( admin_url( 'edit.php?post_type=product&wcsd_type=' . rawurlencode( $row->type ) ) ); ?>">
+							<a href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_type=' . rawurlencode( $row->type ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
 								<?php echo esc_html( $row->total ); ?>
 							</a>
 						</td>
