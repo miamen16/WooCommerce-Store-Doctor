@@ -7,24 +7,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <div class="wrap wcsd-wrap">
-	<h1><?php esc_html_e( 'Vendor Health', 'wc-store-doctor' ); ?></h1>
+	<h1><?php esc_html_e( 'Vendor Health', 'woocommerce-store-doctor' ); ?></h1>
 	<p class="description">
-		<?php esc_html_e( 'Computed from the store\'s existing scan data — run a scan from the Dashboard to refresh these numbers.', 'wc-store-doctor' ); ?>
+		<?php esc_html_e( 'Computed from the store\'s existing scan data — run a scan from the Dashboard to refresh these numbers.', 'woocommerce-store-doctor' ); ?>
 	</p>
 
 	<?php if ( empty( $vendors ) ) : ?>
-		<p><?php esc_html_e( 'No vendors found.', 'wc-store-doctor' ); ?></p>
+		<p><?php esc_html_e( 'No vendors found.', 'woocommerce-store-doctor' ); ?></p>
 	<?php else : ?>
 		<table class="widefat striped">
 			<thead>
 				<tr>
-					<th><?php esc_html_e( 'Vendor', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Score', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Products', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Critical', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Warnings', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Suggestions', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Action', 'wc-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Vendor', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Score', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Products', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Critical', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Warnings', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Suggestions', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Action', 'woocommerce-store-doctor' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 						<td>
 							<?php if ( $vendor['product_count'] > 0 ) : ?>
 								<a class="button" href="<?php echo esc_url( admin_url( 'edit.php?post_type=product&author=' . (int) $vendor['vendor_id'] ) ); ?>">
-									<?php esc_html_e( 'View products', 'wc-store-doctor' ); ?>
+									<?php esc_html_e( 'View products', 'woocommerce-store-doctor' ); ?>
 								</a>
 							<?php else : ?>
 								<span class="description">—</span>
