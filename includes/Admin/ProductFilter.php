@@ -99,18 +99,18 @@ class ProductFilter {
 		$count = is_array( $ids ) ? count( $ids ) : 0;
 		$label = $type
 			? ucwords( str_replace( '_', ' ', $type ) )
-			: ucwords( str_replace( '_', ' ', $scanner ) ) . ' ' . __( 'issues', 'wc-store-doctor' );
+			: ucwords( str_replace( '_', ' ', $scanner ) ) . ' ' . __( 'issues', 'woocommerce-store-doctor' );
 
 		$clear_url = remove_query_arg( array( 'wcsd_type', 'wcsd_scanner' ) );
 
 		echo '<div class="notice notice-info wcsd-filter-notice"><p>';
 		printf(
 			/* translators: 1: number of products, 2: issue/category label */
-			esc_html__( 'Store Doctor filter: showing %1$d product(s) — %2$s.', 'wc-store-doctor' ),
+			esc_html__( 'Store Doctor filter: showing %1$d product(s) — %2$s.', 'woocommerce-store-doctor' ),
 			(int) $count,
 			esc_html( $label )
 		);
-		echo ' <a href="' . esc_url( $clear_url ) . '">' . esc_html__( 'Clear filter', 'wc-store-doctor' ) . '</a>';
+		echo ' <a href="' . esc_url( $clear_url ) . '">' . esc_html__( 'Clear filter', 'woocommerce-store-doctor' ) . '</a>';
 		echo '</p></div>';
 	}
 }
