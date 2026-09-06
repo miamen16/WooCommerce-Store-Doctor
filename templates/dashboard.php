@@ -8,21 +8,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $overall = $latest ? (int) $latest->overall_score : 0;
 
-$health_label = __( 'No scans yet', 'wc-store-doctor' );
+$health_label = __( 'No scans yet', 'woocommerce-store-doctor' );
 if ( $latest ) {
 	if ( $overall >= 90 ) {
-		$health_label = __( 'Excellent Health', 'wc-store-doctor' );
+		$health_label = __( 'Excellent Health', 'woocommerce-store-doctor' );
 	} elseif ( $overall >= 75 ) {
-		$health_label = __( 'Good Health', 'wc-store-doctor' );
+		$health_label = __( 'Good Health', 'woocommerce-store-doctor' );
 	} elseif ( $overall >= 50 ) {
-		$health_label = __( 'Needs Attention', 'wc-store-doctor' );
+		$health_label = __( 'Needs Attention', 'woocommerce-store-doctor' );
 	} else {
-		$health_label = __( 'Critical', 'wc-store-doctor' );
+		$health_label = __( 'Critical', 'woocommerce-store-doctor' );
 	}
 }
 ?>
 <div class="wrap wcsd-wrap">
-	<h1><?php esc_html_e( 'WooCommerce Store Doctor', 'wc-store-doctor' ); ?></h1>
+	<h1><?php esc_html_e( 'WooCommerce Store Doctor', 'woocommerce-store-doctor' ); ?></h1>
 
 	<div class="wcsd-score-card">
 		<div class="wcsd-score-circle" data-score="<?php echo esc_attr( $overall ); ?>">
@@ -36,25 +36,25 @@ if ( $latest ) {
 				if ( $last_scan ) {
 					printf(
 						/* translators: %s: date/time of last scan */
-						esc_html__( 'Last Scan: %s', 'wc-store-doctor' ),
+						esc_html__( 'Last Scan: %s', 'woocommerce-store-doctor' ),
 						esc_html( date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $last_scan ) ) )
 					);
 				} else {
-					esc_html_e( 'Run your first scan to see your store health.', 'wc-store-doctor' );
+					esc_html_e( 'Run your first scan to see your store health.', 'woocommerce-store-doctor' );
 				}
 				?>
 			</p>
 			<button type="button" id="wcsd-run-scan" class="button button-primary">
-				<?php esc_html_e( 'Scan Store', 'wc-store-doctor' ); ?>
+				<?php esc_html_e( 'Scan Store', 'woocommerce-store-doctor' ); ?>
 			</button>
 			<span id="wcsd-scan-status" class="wcsd-scan-status"></span>
 		</div>
 	</div>
 
-	<h2><?php esc_html_e( 'Categories', 'wc-store-doctor' ); ?></h2>
+	<h2><?php esc_html_e( 'Categories', 'woocommerce-store-doctor' ); ?></h2>
 	<div class="wcsd-categories">
 		<?php if ( empty( $category_scores ) ) : ?>
-			<p><?php esc_html_e( 'No category data yet — run a scan.', 'wc-store-doctor' ); ?></p>
+			<p><?php esc_html_e( 'No category data yet — run a scan.', 'woocommerce-store-doctor' ); ?></p>
 		<?php else : ?>
 			<?php foreach ( $category_scores as $scanner_id => $cat ) : ?>
 				<div class="wcsd-category-row">
@@ -70,12 +70,12 @@ if ( $latest ) {
 		<?php endif; ?>
 	</div>
 
-	<h2><?php esc_html_e( 'Store Health History', 'wc-store-doctor' ); ?></h2>
+	<h2><?php esc_html_e( 'Store Health History', 'woocommerce-store-doctor' ); ?></h2>
 	<div class="wcsd-history">
 		<?php if ( empty( $history ) ) : ?>
-			<p><?php esc_html_e( 'History will appear here after your first few scans.', 'wc-store-doctor' ); ?></p>
+			<p><?php esc_html_e( 'History will appear here after your first few scans.', 'woocommerce-store-doctor' ); ?></p>
 		<?php elseif ( count( $history ) < 2 ) : ?>
-			<p><?php esc_html_e( 'Run a few more scans to see a trend graph here.', 'wc-store-doctor' ); ?></p>
+			<p><?php esc_html_e( 'Run a few more scans to see a trend graph here.', 'woocommerce-store-doctor' ); ?></p>
 		<?php else : ?>
 			<div class="wcsd-chart-wrap">
 				<canvas id="wcsd-history-chart" height="220"></canvas>
@@ -85,11 +85,11 @@ if ( $latest ) {
 			<table class="widefat striped">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Date', 'wc-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Score', 'wc-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Critical', 'wc-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Warnings', 'wc-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Suggestions', 'wc-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Date', 'woocommerce-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Score', 'woocommerce-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Critical', 'woocommerce-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Warnings', 'woocommerce-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Suggestions', 'woocommerce-store-doctor' ); ?></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -109,7 +109,7 @@ if ( $latest ) {
 
 	<p>
 		<a href="<?php echo esc_url( admin_url( 'admin.php?page=wcsd-issues' ) ); ?>" class="button">
-			<?php esc_html_e( 'View Issue Center →', 'wc-store-doctor' ); ?>
+			<?php esc_html_e( 'View Issue Center →', 'woocommerce-store-doctor' ); ?>
 		</a>
 	</p>
 </div>
