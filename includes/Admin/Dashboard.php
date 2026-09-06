@@ -30,8 +30,8 @@ class Dashboard {
 
 	public function register_menu() {
 		add_menu_page(
-			__( 'Store Doctor', 'wc-store-doctor' ),
-			__( 'Store Doctor', 'wc-store-doctor' ),
+			__( 'Store Doctor', 'woocommerce-store-doctor' ),
+			__( 'Store Doctor', 'woocommerce-store-doctor' ),
 			'manage_woocommerce',
 			'wcsd-dashboard',
 			array( $this, 'render_dashboard' ),
@@ -41,8 +41,8 @@ class Dashboard {
 
 		add_submenu_page(
 			'wcsd-dashboard',
-			__( 'Dashboard', 'wc-store-doctor' ),
-			__( 'Dashboard', 'wc-store-doctor' ),
+			__( 'Dashboard', 'woocommerce-store-doctor' ),
+			__( 'Dashboard', 'woocommerce-store-doctor' ),
 			'manage_woocommerce',
 			'wcsd-dashboard',
 			array( $this, 'render_dashboard' )
@@ -50,8 +50,8 @@ class Dashboard {
 
 		add_submenu_page(
 			'wcsd-dashboard',
-			__( 'Issues', 'wc-store-doctor' ),
-			__( 'Issues', 'wc-store-doctor' ),
+			__( 'Issues', 'woocommerce-store-doctor' ),
+			__( 'Issues', 'woocommerce-store-doctor' ),
 			'manage_woocommerce',
 			'wcsd-issues',
 			array( $this, 'render_issues' )
@@ -81,14 +81,14 @@ class Dashboard {
 			'nonce'   => wp_create_nonce( 'wcsd_admin' ),
 			'history' => $chart_data,
 			'i18n'    => array(
-				'scanning'      => __( 'Scanning your store…', 'wc-store-doctor' ),
-				'error'         => __( 'Something went wrong. Please try again.', 'wc-store-doctor' ),
-				'loadingPreview' => __( 'Loading preview…', 'wc-store-doctor' ),
-				'applying'      => __( 'Applying changes…', 'wc-store-doctor' ),
-				'reverting'     => __( 'Reverting…', 'wc-store-doctor' ),
-				'confirmApply'  => __( 'Apply these changes? A backup is kept so you can revert.', 'wc-store-doctor' ),
-				'confirmRevert' => __( 'Revert this batch of changes?', 'wc-store-doctor' ),
-				'noAutoFix'     => __( 'None of these items could be fixed automatically — they need manual review.', 'wc-store-doctor' ),
+				'scanning'      => __( 'Scanning your store…', 'woocommerce-store-doctor' ),
+				'error'         => __( 'Something went wrong. Please try again.', 'woocommerce-store-doctor' ),
+				'loadingPreview' => __( 'Loading preview…', 'woocommerce-store-doctor' ),
+				'applying'      => __( 'Applying changes…', 'woocommerce-store-doctor' ),
+				'reverting'     => __( 'Reverting…', 'woocommerce-store-doctor' ),
+				'confirmApply'  => __( 'Apply these changes? A backup is kept so you can revert.', 'woocommerce-store-doctor' ),
+				'confirmRevert' => __( 'Revert this batch of changes?', 'woocommerce-store-doctor' ),
+				'noAutoFix'     => __( 'None of these items could be fixed automatically — they need manual review.', 'woocommerce-store-doctor' ),
 			),
 		) );
 	}
