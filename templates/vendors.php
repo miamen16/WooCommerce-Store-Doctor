@@ -28,17 +28,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach ( $vendors as $vendor ) : ?>
+				<?php foreach ( $vendors as $wcsd_vendor ) : ?>
 					<tr>
-						<td><?php echo esc_html( $vendor['name'] ); ?></td>
-						<td><?php echo esc_html( $vendor['score'] ); ?>/100</td>
-						<td><?php echo esc_html( $vendor['product_count'] ); ?></td>
-						<td><?php echo esc_html( $vendor['critical'] ); ?></td>
-						<td><?php echo esc_html( $vendor['warning'] ); ?></td>
-						<td><?php echo esc_html( $vendor['suggestion'] ); ?></td>
+						<td><?php echo esc_html( $wcsd_vendor['name'] ); ?></td>
+						<td><?php echo esc_html( $wcsd_vendor['score'] ); ?>/100</td>
+						<td><?php echo esc_html( $wcsd_vendor['product_count'] ); ?></td>
+						<td><?php echo esc_html( $wcsd_vendor['critical'] ); ?></td>
+						<td><?php echo esc_html( $wcsd_vendor['warning'] ); ?></td>
+						<td><?php echo esc_html( $wcsd_vendor['suggestion'] ); ?></td>
 						<td>
-							<?php if ( $vendor['product_count'] > 0 ) : ?>
-								<a class="button" href="<?php echo esc_url( admin_url( 'edit.php?post_type=product&author=' . (int) $vendor['vendor_id'] ) ); ?>">
+							<?php if ( $wcsd_vendor['product_count'] > 0 ) : ?>
+								<a class="button" href="<?php echo esc_url( admin_url( 'edit.php?post_type=product&author=' . (int) $wcsd_vendor['vendor_id'] ) ); ?>">
 									<?php esc_html_e( 'View products', 'woocommerce-store-doctor' ); ?>
 								</a>
 							<?php else : ?>
