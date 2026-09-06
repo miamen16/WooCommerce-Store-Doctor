@@ -20,7 +20,7 @@ class SEOScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'SEO', 'wc-store-doctor' );
+		return __( 'SEO', 'woocommerce-store-doctor' );
 	}
 
 	public function scan() {
@@ -54,7 +54,11 @@ class SEOScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'short_title',
 				'suggestion',
-				sprintf( __( 'Product "%s" has a very short title, which may hurt search visibility.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has a very short title, which may hurt search visibility.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -65,7 +69,11 @@ class SEOScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_short_description',
 				'warning',
-				sprintf( __( 'Product "%s" has no short description (often used as the meta description).', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has no short description (often used as the meta description).', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -77,7 +85,11 @@ class SEOScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_image_alt',
 				'warning',
-				sprintf( __( 'Product "%s" featured image has no alt text.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" featured image has no alt text.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				true,
