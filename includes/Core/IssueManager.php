@@ -84,7 +84,7 @@ class IssueManager {
 
 		// $table is generated internally by Database::issues_table() and is
 		// never populated from request data. It is a trusted SQL identifier.
-		$sql = "SELECT * FROM {$table} WHERE " . implode( ' AND ', $where ) // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+		$sql = "SELECT * FROM {$table} WHERE " . implode( ' AND ', $where ) // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 			. ' ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), id DESC'
 			. ' LIMIT %d';
 		$params[] = (int) $args['limit'];
@@ -107,7 +107,7 @@ class IssueManager {
 			 FROM {$table}
 			 WHERE status = 'open'
 			 GROUP BY type, severity, scanner
-			 ORDER BY FIELD(severity, 'critical','warning','suggestion'), total DESC" // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+			 ORDER BY FIELD(severity, 'critical','warning','suggestion'), total DESC" // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 		);
 	}
 
@@ -121,7 +121,7 @@ class IssueManager {
 
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			$wpdb->prepare(
-				"SELECT id, object_type, object_id, fixer FROM {$table} WHERE type = %s AND status = %s", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				"SELECT id, object_type, object_id, fixer FROM {$table} WHERE type = %s AND status = %s", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				$type,
 				$status
 			)
@@ -139,7 +139,7 @@ class IssueManager {
 
 		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			$wpdb->prepare(
-				"SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = 'product'", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				"SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = 'product'", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				$type,
 				$status
 			)
@@ -158,7 +158,7 @@ class IssueManager {
 
 		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			$wpdb->prepare(
-				"SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = 'product'", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared
+				"SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = 'product'", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				$scanner,
 				$status
 			)
@@ -187,7 +187,7 @@ class IssueManager {
 
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 			$wpdb->prepare(
-				"SELECT severity FROM {$table} WHERE status = 'open' AND object_type = 'product' AND object_id IN ({$placeholders})", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQLPlaceholders
+				"SELECT severity FROM {$table} WHERE status = 'open' AND object_type = 'product' AND object_id IN ({$placeholders})", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders
 				$object_ids
 			)
 		);
@@ -217,7 +217,7 @@ class IssueManager {
 				"SELECT scanner, type, severity, message, object_id FROM {$table}
 				 WHERE status = 'open' AND object_type = 'product' AND object_id IN ({$placeholders})
 				 ORDER BY FIELD(severity, 'critical','warning','suggestion')
-				 LIMIT %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQLPlaceholders
+				 LIMIT %d", // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders
 				$params
 			)
 		);
