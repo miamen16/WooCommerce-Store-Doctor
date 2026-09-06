@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce Store Doctor
+ * Plugin Name: Store Doctor for WooCommerce
  * Plugin URI:  https://github.com/miamen16/WooCommerce-Store-Doctor
  * Description: Diagnose your WooCommerce store. Fix what hurts. Grow what works.
  * Version:     1.0.0-alpha
@@ -8,6 +8,8 @@
  * Text Domain: woocommerce-store-doctor
  * Requires Plugins: woocommerce
  * Requires PHP: 7.4
+ * License:     GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
