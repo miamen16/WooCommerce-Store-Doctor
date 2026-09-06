@@ -84,7 +84,7 @@ class IssueManager {
 
 		// $table is generated internally by Database::issues_table() and is
 		// never populated from request data. It is a trusted SQL identifier.
-		$sql = "SELECT * FROM {$table} WHERE " . implode( ' AND ', $where ) // phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
+		$sql = 'SELECT * FROM ' . $table . ' WHERE ' . implode( ' AND ', $where )
 			. ' ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), id DESC'
 			. ' LIMIT %d';
 		$params[] = (int) $args['limit'];
@@ -104,13 +104,14 @@ class IssueManager {
 
 		// The table identifier is generated internally by Database and is not
 		// user-controlled; prepare() cannot safely substitute SQL identifiers.
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
-			"SELECT type, severity, scanner, COUNT(*) as total, MAX(fixable) as fixable
-			 FROM {$table}
-			 WHERE status = 'open'
+		$sql = 'SELECT type, severity, scanner, COUNT(*) as total, MAX(fixable) as fixable
+			 FROM ' . $table . '
+			 WHERE status = \'open\'
 			 GROUP BY type, severity, scanner
-			 ORDER BY FIELD(severity, 'critical','warning','suggestion'), total DESC"
+			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), total DESC';
+
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+			$sql
 		);
 	}
 
@@ -191,12 +192,10 @@ class IssueManager {
 
 		$placeholders = implode( ',', array_fill( 0, count( $object_ids ), '%d' ) );
 
+		$sql = 'SELECT severity FROM ' . $table . ' WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')';
+
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			$wpdb->prepare(
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders
-				"SELECT severity FROM {$table} WHERE status = 'open' AND object_type = 'product' AND object_id IN ({$placeholders})",
-				$object_ids
-			)
+			$wpdb->prepare( $sql, $object_ids )
 		);
 	}
 
@@ -219,15 +218,13 @@ class IssueManager {
 		$params       = $object_ids;
 		$params[]     = (int) $limit;
 
+		$sql = 'SELECT scanner, type, severity, message, object_id FROM ' . $table . '
+			 WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')
+			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\')
+			 LIMIT %d';
+
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			$wpdb->prepare(
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.PreparedSQLPlaceholders
-				"SELECT scanner, type, severity, message, object_id FROM {$table}
-				 WHERE status = 'open' AND object_type = 'product' AND object_id IN ({$placeholders})
-				 ORDER BY FIELD(severity, 'critical','warning','suggestion')
-				 LIMIT %d",
-				$params
-			)
+			$wpdb->prepare( $sql, $params )
 		);
 	}
 
