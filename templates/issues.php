@@ -8,13 +8,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$severity_labels = array(
+$wcsd_severity_labels = array(
 	'critical'   => __( 'Critical', 'woocommerce-store-doctor' ),
 	'warning'    => __( 'Warning', 'woocommerce-store-doctor' ),
 	'suggestion' => __( 'Suggestion', 'woocommerce-store-doctor' ),
 );
 
-$severity_icons = array(
+$wcsd_severity_icons = array(
 	'critical'   => '🔴',
 	'warning'    => '🟠',
 	'suggestion' => '🟡',
@@ -36,27 +36,27 @@ $severity_icons = array(
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach ( $grouped as $row ) : ?>
+				<?php foreach ( $grouped as $wcsd_row ) : ?>
 					<tr>
-						<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $row->type ) ) ); ?></td>
+						<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $wcsd_row->type ) ) ); ?></td>
 						<td>
-							<a href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_type=' . rawurlencode( $row->type ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
-								<?php echo esc_html( $row->total ); ?>
+							<a href="<?php echo esc_url( wp_nonce_url( admin_url( 'edit.php?post_type=product&wcsd_type=' . rawurlencode( $wcsd_row->type ) ), 'wcsd_product_filter', '_wcsd_filter_nonce' ) ); ?>">
+								<?php echo esc_html( $wcsd_row->total ); ?>
 							</a>
 						</td>
 						<td>
 							<?php
-							$icon = isset( $severity_icons[ $row->severity ] ) ? $severity_icons[ $row->severity ] : '';
-							echo esc_html( $icon . ' ' . ( $severity_labels[ $row->severity ] ?? $row->severity ) );
+							$wcsd_icon = isset( $wcsd_severity_icons[ $wcsd_row->severity ] ) ? $wcsd_severity_icons[ $wcsd_row->severity ] : '';
+							echo esc_html( $wcsd_icon . ' ' . ( $wcsd_severity_labels[ $wcsd_row->severity ] ?? $wcsd_row->severity ) );
 							?>
 						</td>
 						<td>
-							<?php if ( ! empty( $row->fixable ) ) : ?>
+							<?php if ( ! empty( $wcsd_row->fixable ) ) : ?>
 								<button
 									type="button"
 									class="button button-primary wcsd-fix-button"
-									data-issue-type="<?php echo esc_attr( $row->type ); ?>"
-									data-issue-label="<?php echo esc_attr( ucwords( str_replace( '_', ' ', $row->type ) ) ); ?>"
+									data-issue-type="<?php echo esc_attr( $wcsd_row->type ); ?>"
+									data-issue-label="<?php echo esc_attr( ucwords( str_replace( '_', ' ', $wcsd_row->type ) ) ); ?>"
 								>
 									<?php esc_html_e( 'Fix', 'woocommerce-store-doctor' ); ?>
 								</button>
@@ -86,21 +86,21 @@ $severity_icons = array(
 					</tr>
 				</thead>
 				<tbody>
-					<?php foreach ( $batches as $batch ) : ?>
-						<?php $fully_reverted = (int) $batch->reverted_count >= (int) $batch->total; ?>
+					<?php foreach ( $batches as $wcsd_batch ) : ?>
+						<?php $wcsd_fully_reverted = (int) $wcsd_batch->reverted_count >= (int) $wcsd_batch->total; ?>
 						<tr>
-							<td><?php echo esc_html( date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $batch->created_at ) ) ); ?></td>
-							<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $batch->fixer ) ) ); ?></td>
-							<td><?php echo esc_html( $batch->total ); ?></td>
+							<td><?php echo esc_html( date_i18n( get_option( 'date_format' ) . ' ' . get_option( 'time_format' ), strtotime( $wcsd_batch->created_at ) ) ); ?></td>
+							<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $wcsd_batch->fixer ) ) ); ?></td>
+							<td><?php echo esc_html( $wcsd_batch->total ); ?></td>
 							<td>
 								<?php
-								if ( $fully_reverted ) {
+								if ( $wcsd_fully_reverted ) {
 									esc_html_e( 'Reverted', 'woocommerce-store-doctor' );
-								} elseif ( (int) $batch->reverted_count > 0 ) {
+								} elseif ( (int) $wcsd_batch->reverted_count > 0 ) {
 									printf(
 										/* translators: %d: number of items reverted */
 										esc_html__( 'Partially reverted (%d)', 'woocommerce-store-doctor' ),
-										(int) $batch->reverted_count
+										(int) $wcsd_batch->reverted_count
 									);
 								} else {
 									esc_html_e( 'Applied', 'woocommerce-store-doctor' );
@@ -108,8 +108,8 @@ $severity_icons = array(
 								?>
 							</td>
 							<td>
-								<?php if ( ! $fully_reverted ) : ?>
-									<button type="button" class="button wcsd-revert-button" data-batch-id="<?php echo esc_attr( $batch->batch_id ); ?>">
+								<?php if ( ! $wcsd_fully_reverted ) : ?>
+									<button type="button" class="button wcsd-revert-button" data-batch-id="<?php echo esc_attr( $wcsd_batch->batch_id ); ?>">
 										<?php esc_html_e( 'Revert', 'woocommerce-store-doctor' ); ?>
 									</button>
 								<?php else : ?>
