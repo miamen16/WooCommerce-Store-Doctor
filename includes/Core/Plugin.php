@@ -119,7 +119,8 @@ class Plugin {
 	public function ajax_fix_preview() {
 		$this->guard();
 
-		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : '';
+		// Nonce is verified by guard() before this request data is processed.
+		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $issue_type ) {
 			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'woocommerce-store-doctor' ) ), 400 );
 		}
@@ -140,7 +141,8 @@ class Plugin {
 	public function ajax_fix_apply() {
 		$this->guard();
 
-		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : '';
+		// Nonce is verified by guard() before this request data is processed.
+		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $issue_type ) {
 			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'woocommerce-store-doctor' ) ), 400 );
 		}
@@ -160,7 +162,8 @@ class Plugin {
 	public function ajax_fix_revert() {
 		$this->guard();
 
-		$batch_id = isset( $_POST['batch_id'] ) ? sanitize_text_field( wp_unslash( $_POST['batch_id'] ) ) : '';
+		// Nonce is verified by guard() before this request data is processed.
+		$batch_id = isset( $_POST['batch_id'] ) ? sanitize_text_field( wp_unslash( $_POST['batch_id'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $batch_id ) {
 			wp_send_json_error( array( 'message' => __( 'Missing batch id.', 'woocommerce-store-doctor' ) ), 400 );
 		}
