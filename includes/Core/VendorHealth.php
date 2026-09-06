@@ -143,7 +143,7 @@ class VendorHealth {
 		foreach ( $by_scanner as $scanner_id => $severities ) {
 			$weighted                  = ScoreFormula::weighted_sum( $severities );
 			$categories[ $scanner_id ] = array(
-				'label' => 'seo' === $scanner_id ? __( 'SEO', 'wc-store-doctor' ) : ucwords( str_replace( '_', ' ', $scanner_id ) ),
+				'label' => 'seo' === $scanner_id ? __( 'SEO', 'woocommerce-store-doctor' ) : ucwords( str_replace( '_', ' ', $scanner_id ) ),
 				'score' => ScoreFormula::score( $weighted, count( $product_ids ) ),
 			);
 		}
@@ -168,7 +168,7 @@ class VendorHealth {
 		foreach ( $this->get_vendor_ids() as $vendor_id ) {
 			$row         = $this->get_vendor_score( $vendor_id );
 			$user        = get_userdata( $vendor_id );
-			$row['name'] = $user ? $user->display_name : sprintf( __( 'Vendor #%d', 'wc-store-doctor' ), $vendor_id );
+			$row['name'] = $user ? $user->display_name : sprintf( __( 'Vendor #%d', 'woocommerce-store-doctor' ), $vendor_id );
 			$rows[]      = $row;
 		}
 
