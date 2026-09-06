@@ -9,78 +9,78 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-$plugin = \WCSD\Core\Plugin::instance();
-$report = $plugin->vendor_health->get_vendor_report( get_current_user_id() );
+$wcsd_plugin = \WCSD\Core\Plugin::instance();
+$wcsd_report = $wcsd_plugin->vendor_health->get_vendor_report( get_current_user_id() );
 
-$overall = $report['overall'];
+$wcsd_overall = $wcsd_report['overall'];
 
-$health_label = __( 'Excellent Health', 'wc-store-doctor' );
-if ( $overall['score'] < 50 ) {
-	$health_label = __( 'Needs Attention', 'wc-store-doctor' );
-} elseif ( $overall['score'] < 75 ) {
-	$health_label = __( 'Good Health', 'wc-store-doctor' );
+$wcsd_health_label = __( 'Excellent Health', 'woocommerce-store-doctor' );
+if ( $wcsd_overall['score'] < 50 ) {
+	$wcsd_health_label = __( 'Needs Attention', 'woocommerce-store-doctor' );
+} elseif ( $wcsd_overall['score'] < 75 ) {
+	$wcsd_health_label = __( 'Good Health', 'woocommerce-store-doctor' );
 }
 
 dokan_get_template_part( 'global/dashboard-header', '', array(
-	'header_title' => __( 'Store Health', 'wc-store-doctor' ),
-	'description'  => __( "See how your listings are doing and what's worth fixing.", 'wc-store-doctor' ),
+	'header_title' => __( 'Store Health', 'woocommerce-store-doctor' ),
+	'description'  => __( "See how your listings are doing and what's worth fixing.", 'woocommerce-store-doctor' ),
 ) );
 ?>
 
 <div class="dokan-dashboard-content wcsd-vendor-health">
 
 	<div class="wcsd-score-card">
-		<div class="wcsd-score-circle" data-score="<?php echo esc_attr( $overall['score'] ); ?>">
-			<span class="wcsd-score-number"><?php echo esc_html( $overall['score'] ); ?></span>
+		<div class="wcsd-score-circle" data-score="<?php echo esc_attr( $wcsd_overall['score'] ); ?>">
+			<span class="wcsd-score-number"><?php echo esc_html( $wcsd_overall['score'] ); ?></span>
 			<span class="wcsd-score-max">/ 100</span>
 		</div>
 		<div class="wcsd-score-meta">
-			<p class="wcsd-score-label"><?php echo esc_html( $health_label ); ?></p>
+			<p class="wcsd-score-label"><?php echo esc_html( $wcsd_health_label ); ?></p>
 			<p class="wcsd-score-last-scan">
 				<?php
 				printf(
 					/* translators: %d: number of products */
-					esc_html__( 'Based on %d published product(s).', 'wc-store-doctor' ),
-					(int) $overall['product_count']
+					esc_html__( 'Based on %d published product(s).', 'woocommerce-store-doctor' ),
+					(int) $wcsd_overall['product_count']
 				);
 				?>
 			</p>
 		</div>
 	</div>
 
-	<?php if ( ! empty( $report['categories'] ) ) : ?>
-		<h3><?php esc_html_e( 'Breakdown', 'wc-store-doctor' ); ?></h3>
+	<?php if ( ! empty( $wcsd_report['categories'] ) ) : ?>
+		<h3><?php esc_html_e( 'Breakdown', 'woocommerce-store-doctor' ); ?></h3>
 		<div class="wcsd-categories">
-			<?php foreach ( $report['categories'] as $cat ) : ?>
+			<?php foreach ( $wcsd_report['categories'] as $wcsd_cat ) : ?>
 				<div class="wcsd-category-row">
-					<span class="wcsd-category-label"><?php echo esc_html( $cat['label'] ); ?></span>
+					<span class="wcsd-category-label"><?php echo esc_html( $wcsd_cat['label'] ); ?></span>
 					<div class="wcsd-category-bar">
-						<div class="wcsd-category-bar-fill" style="width: <?php echo esc_attr( $cat['score'] ); ?>%;"></div>
+						<div class="wcsd-category-bar-fill" style="width: <?php echo esc_attr( $wcsd_cat['score'] ); ?>%;"></div>
 					</div>
-					<span class="wcsd-category-score"><?php echo esc_html( $cat['score'] ); ?>/100</span>
+					<span class="wcsd-category-score"><?php echo esc_html( $wcsd_cat['score'] ); ?>/100</span>
 				</div>
 			<?php endforeach; ?>
 		</div>
 	<?php endif; ?>
 
-	<h3><?php esc_html_e( 'Things worth fixing', 'wc-store-doctor' ); ?></h3>
-	<?php if ( empty( $report['issues'] ) ) : ?>
-		<p><?php esc_html_e( 'No open issues on your listings right now. Nice work!', 'wc-store-doctor' ); ?></p>
+	<h3><?php esc_html_e( 'Things worth fixing', 'woocommerce-store-doctor' ); ?></h3>
+	<?php if ( empty( $wcsd_report['issues'] ) ) : ?>
+		<p><?php esc_html_e( 'No open issues on your listings right now. Nice work!', 'woocommerce-store-doctor' ); ?></p>
 	<?php else : ?>
 		<table class="dokan-table">
 			<thead>
 				<tr>
-					<th><?php esc_html_e( 'Product', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Issue', 'wc-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Severity', 'wc-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Product', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Issue', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Severity', 'woocommerce-store-doctor' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
-				<?php foreach ( $report['issues'] as $issue ) : ?>
+				<?php foreach ( $wcsd_report['issues'] as $wcsd_issue ) : ?>
 					<tr>
-						<td><?php echo esc_html( get_the_title( $issue->object_id ) ); ?></td>
-						<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $issue->type ) ) ); ?></td>
-						<td><?php echo esc_html( ucfirst( $issue->severity ) ); ?></td>
+						<td><?php echo esc_html( get_the_title( $wcsd_issue->object_id ) ); ?></td>
+						<td><?php echo esc_html( ucwords( str_replace( '_', ' ', $wcsd_issue->type ) ) ); ?></td>
+						<td><?php echo esc_html( ucfirst( $wcsd_issue->severity ) ); ?></td>
 					</tr>
 				<?php endforeach; ?>
 			</tbody>
