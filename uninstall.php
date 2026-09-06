@@ -15,7 +15,8 @@ $tables = array(
 );
 
 foreach ( $tables as $table ) {
-	$wpdb->query( "DROP TABLE IF EXISTS {$table}" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+	// Table names are generated from the trusted WordPress database prefix.
+	$wpdb->query( "DROP TABLE IF EXISTS {$table}" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 }
 
 delete_option( 'wcsd_db_version' );
