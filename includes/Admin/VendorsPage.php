@@ -27,8 +27,8 @@ class VendorsPage {
 	public function register_menu() {
 		add_submenu_page(
 			'wcsd-dashboard',
-			__( 'Vendors', 'wc-store-doctor' ),
-			__( 'Vendors', 'wc-store-doctor' ),
+			__( 'Vendors', 'woocommerce-store-doctor' ),
+			__( 'Vendors', 'woocommerce-store-doctor' ),
 			'manage_woocommerce',
 			'wcsd-vendors',
 			array( $this, 'render' )
