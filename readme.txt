@@ -2,7 +2,11 @@
 Contributors: mohamed
 Tags: woocommerce, diagnostics, store health, seo, inventory
 Requires PHP: 7.4
+Requires at least: 6.0
+Tested up to: 6.8
 Stable tag: 1.0.0-alpha
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Diagnose your WooCommerce store. Fix what hurts. Grow what works.
 
@@ -36,7 +40,7 @@ includes/Scanners/               ProductScanner, ImageScanner, InventoryScanner,
                                   PricingScanner, SEOScanner
 includes/Core/
     AbstractFixer.php            Base class every fixer extends
-    FixManager.php                Registry + preview/apply/revert orchestration,
+    FixManager.php               Registry + preview/apply/revert orchestration,
                                   backup bookkeeping (wp_wcsd_fix_backups)
 includes/Fixers/                 CategoryFixer, FeaturedImageFixer, ImageAltTextFixer
 includes/Admin/
