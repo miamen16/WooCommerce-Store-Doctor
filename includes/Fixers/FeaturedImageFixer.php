@@ -20,7 +20,7 @@ class FeaturedImageFixer extends AbstractFixer {
 	}
 
 	public function label() {
-		return __( 'Use first gallery image as featured image', 'wc-store-doctor' );
+		return __( 'Use first gallery image as featured image', 'woocommerce-store-doctor' );
 	}
 
 	public function preview( array $object_ids ) {
@@ -40,10 +40,10 @@ class FeaturedImageFixer extends AbstractFixer {
 			$items[] = array(
 				'object_id' => $product_id,
 				'label'     => $product->get_name(),
-				'current'   => __( 'No featured image', 'wc-store-doctor' ),
+				'current'   => __( 'No featured image', 'woocommerce-store-doctor' ),
 				'proposed'  => sprintf(
 					/* translators: %s: attachment file name */
-					__( 'Use gallery image "%s"', 'wc-store-doctor' ),
+					__( 'Use gallery image "%s"', 'woocommerce-store-doctor' ),
 					get_the_title( $gallery_ids[0] )
 				),
 			);
