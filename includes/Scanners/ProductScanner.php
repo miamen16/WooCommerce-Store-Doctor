@@ -19,7 +19,7 @@ class ProductScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Products', 'wc-store-doctor' );
+		return __( 'Products', 'woocommerce-store-doctor' );
 	}
 
 	public function scan() {
@@ -53,7 +53,11 @@ class ProductScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_description',
 				'warning',
-				sprintf( __( 'Product "%s" has no description.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has no description.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -62,7 +66,11 @@ class ProductScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'short_description_body',
 				'suggestion',
-				sprintf( __( 'Product "%s" has a very short description (under 100 characters).', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has a very short description (under 100 characters).', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -73,7 +81,11 @@ class ProductScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_sku',
 				'warning',
-				sprintf( __( 'Product "%s" has no SKU.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has no SKU.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -84,7 +96,11 @@ class ProductScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'missing_category',
 				'warning',
-				sprintf( __( 'Product "%s" is not assigned to any category.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" is not assigned to any category.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				true,
@@ -97,7 +113,11 @@ class ProductScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'no_related_products',
 				'suggestion',
-				sprintf( __( 'Product "%s" has no up-sells or cross-sells configured.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" has no up-sells or cross-sells configured.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
