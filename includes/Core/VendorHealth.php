@@ -168,6 +168,7 @@ class VendorHealth {
 		foreach ( $this->get_vendor_ids() as $vendor_id ) {
 			$row         = $this->get_vendor_score( $vendor_id );
 			$user        = get_userdata( $vendor_id );
+			/* translators: %d: vendor user ID. */
 			$row['name'] = $user ? $user->display_name : sprintf( __( 'Vendor #%d', 'woocommerce-store-doctor' ), $vendor_id );
 			$rows[]      = $row;
 		}
