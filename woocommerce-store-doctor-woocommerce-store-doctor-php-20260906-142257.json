@@ -1,0 +1,76 @@
+{
+    "generated_at": "2026-09-06 14:22:57",
+    "plugin": "Store Doctor for WooCommerce",
+    "results": {
+        "includes/Core/FixManager.php": [
+            {
+                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t\\t FROM {$table}\\n",
+                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Fincludes%2FCore%2FFixManager.php&line=194",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 194,
+                "column": 1
+            }
+        ],
+        "includes/Core/IssueManager.php": [
+            {
+                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t FROM {$table}\\n",
+                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Fincludes%2FCore%2FIssueManager.php&line=110",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 110,
+                "column": 1
+            },
+            {
+                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$placeholders} at \\t\\t\\t\\t WHERE status = &#039;open&#039; AND object_type = &#039;product&#039; AND object_id IN ({$placeholders})\\n",
+                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Fincludes%2FCore%2FIssueManager.php&line=226",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 226,
+                "column": 1
+            }
+        ],
+        "includes/Core/ScoreManager.php": [
+            {
+                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t\\t\\tSELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT %d\\n",
+                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Fincludes%2FCore%2FScoreManager.php&line=64",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 64,
+                "column": 1
+            }
+        ],
+        "woocommerce-store-doctor.php": [
+            {
+                "message": "The plugin slug includes a restricted term. Your plugin slug - \"woocommerce-store-doctor\" - contains the restricted term \"woocommerce\" which cannot be used within in your plugin slug, unless your plugin slug contains one of the allowed patterns: \"for woocommerce\", \"with woocommerce\", \"using woocommerce\", or \"and woocommerce\". The term must still not appear anywhere else in your plugin slug.",
+                "code": "trademarked_term",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 0,
+                "column": 0
+            }
+        ],
+        "templates/vendors.php": [
+            {
+                "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$vendor&quot;.",
+                "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
+                "link": "https://playground.wordpress.net/scope:happy-modern-park/wp-admin/plugin-editor.php?plugin=woocommerce-store-doctor%2Fwoocommerce-store-doctor.php&file=woocommerce-store-doctor%2Ftemplates%2Fvendors.php&line=31",
+                "docs": "",
+                "severity": 6,
+                "type": "WARNING",
+                "line": 31,
+                "column": 45
+            }
+        ]
+    }
+}
