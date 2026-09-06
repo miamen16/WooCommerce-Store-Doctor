@@ -20,7 +20,7 @@ class InventoryScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Inventory', 'wc-store-doctor' );
+		return __( 'Inventory', 'woocommerce-store-doctor' );
 	}
 
 	public function scan() {
@@ -58,7 +58,11 @@ class InventoryScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'stock_not_managed',
 				'suggestion',
-				sprintf( __( 'Product "%s" does not have stock management enabled.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" does not have stock management enabled.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -72,7 +76,11 @@ class InventoryScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'out_of_stock',
 				'critical',
-				sprintf( __( 'Product "%s" is out of stock.', 'wc-store-doctor' ), $product->get_name() ),
+				sprintf(
+					/* translators: %s: product name */
+					__( 'Product "%s" is out of stock.', 'woocommerce-store-doctor' ),
+					$product->get_name()
+				),
 				'product',
 				$id,
 				false
@@ -81,7 +89,12 @@ class InventoryScanner extends AbstractScanner {
 			$issues[] = $this->make_issue(
 				'low_stock',
 				'critical',
-				sprintf( __( 'Product "%s" is low on stock (%d remaining).', 'wc-store-doctor' ), $product->get_name(), $stock ),
+				sprintf(
+					/* translators: 1: product name, 2: remaining stock quantity */
+					__( 'Product "%1$s" is low on stock (%2$d remaining).', 'woocommerce-store-doctor' ),
+					$product->get_name(),
+					$stock
+				),
 				'product',
 				$id,
 				false
