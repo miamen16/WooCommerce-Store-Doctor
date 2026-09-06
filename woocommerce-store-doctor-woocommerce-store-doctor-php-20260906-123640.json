@@ -1,12 +1,12 @@
 {
-    "generated_at": "2026-09-06 12:47:00",
+    "generated_at": "2026-09-06 13:09:14",
     "plugin": "WooCommerce Store Doctor",
     "results": {
         "includes/Admin/Dashboard.php": [
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=33",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=33",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -16,7 +16,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=34",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=34",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -26,7 +26,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=44",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=44",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -36,7 +36,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=45",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=45",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -46,7 +46,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=53",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=53",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -56,7 +56,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=54",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=54",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -66,7 +66,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=84",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=84",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -76,7 +76,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=85",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=85",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -86,7 +86,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=86",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=86",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -96,7 +96,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=87",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=87",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -106,7 +106,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=88",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=88",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -116,7 +116,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=89",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=89",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -126,7 +126,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=90",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -136,7 +136,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=91",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FDashboard.php&line=91",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -148,7 +148,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Recommended",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=41",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=41",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -158,7 +158,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Recommended",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=41",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=41",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -168,7 +168,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Recommended",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=45",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=45",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -178,7 +178,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Recommended",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=45",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=45",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -188,39 +188,39 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=102",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=119",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
-                "line": 102,
+                "line": 119,
                 "column": 82
             },
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=109",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=126",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
-                "line": 109,
+                "line": 126,
                 "column": 81
             },
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=113",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FProductFilter.php&line=130",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
-                "line": 113,
+                "line": 130,
                 "column": 88
             }
         ],
         "includes/Admin/VendorsPage.php": [
             {
-                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
+                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FVendorsPage.php&line=30",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FVendorsPage.php&line=30",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -228,9 +228,9 @@
                 "column": 28
             },
             {
-                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
+                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FVendorsPage.php&line=31",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FAdmin%2FVendorsPage.php&line=31",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -242,7 +242,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=44",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=44",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -252,7 +252,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=51",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=51",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -262,7 +262,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=77",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=77",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -272,7 +272,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=84",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=84",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -282,7 +282,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=97",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=97",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -292,7 +292,7 @@
             {
                 "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 140.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=142",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=142",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -302,7 +302,7 @@
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT * FROM {$table} WHERE batch_id = %s AND reverted = 0&quot;",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=143",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=143",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -312,7 +312,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=147",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=147",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -322,7 +322,7 @@
             {
                 "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 179.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=181",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=181",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -332,7 +332,7 @@
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t\\t FROM {$table}\\n",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=187",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FFixManager.php&line=187",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -344,7 +344,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=100",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=100",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -354,7 +354,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=122",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=122",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -364,7 +364,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=122",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=122",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -374,7 +374,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=124",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=124",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -384,7 +384,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=143",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=143",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -394,7 +394,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=143",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=143",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -404,7 +404,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=145",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=145",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -414,7 +414,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=163",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=163",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -424,7 +424,7 @@
             {
                 "message": "Processing form data without nonce verification.",
                 "code": "WordPress.Security.NonceVerification.Missing",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=163",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=163",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -434,7 +434,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=165",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FPlugin.php&line=165",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -444,9 +444,9 @@
         ],
         "includes/Core/VendorHealth.php": [
             {
-                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
+                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=146",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=146",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -456,7 +456,7 @@
             {
                 "message": "A function call to __() with texts containing placeholders was found, but was not accompanied by a \"translators:\" comment on the line above to clarify the meaning of the placeholders.",
                 "code": "WordPress.WP.I18n.MissingTranslatorsComment",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=171",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=171",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/#descriptions",
                 "severity": 5,
                 "type": "ERROR",
@@ -464,9 +464,9 @@
                 "column": 67
             },
             {
-                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
+                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=171",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FVendorHealth.php&line=171",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -476,9 +476,9 @@
         ],
         "includes/Dokan/VendorDashboardTab.php": [
             {
-                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
+                "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FDokan%2FVendorDashboardTab.php&line=46",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FDokan%2FVendorDashboardTab.php&line=46",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -490,7 +490,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FCategoryFixer.php&line=22",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FCategoryFixer.php&line=22",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -500,7 +500,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FCategoryFixer.php&line=65",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FCategoryFixer.php&line=65",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -512,7 +512,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=23",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=23",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -522,7 +522,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=43",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=43",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -532,7 +532,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=46",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=46",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -544,7 +544,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=22",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=22",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -554,7 +554,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=37",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=37",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -566,7 +566,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=21",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=21",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -576,7 +576,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=45",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=45",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -586,7 +586,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=61",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FImageScanner.php&line=61",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -598,7 +598,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=23",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=23",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -608,7 +608,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=63",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=63",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -618,7 +618,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=81",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=81",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -628,7 +628,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=94",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FInventoryScanner.php&line=94",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -640,7 +640,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=23",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=23",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -650,7 +650,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=65",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=65",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -660,7 +660,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=81",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=81",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -670,7 +670,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=96",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FPricingScanner.php&line=96",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -682,7 +682,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=22",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=22",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -692,7 +692,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=58",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=58",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -702,7 +702,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=71",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=71",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -712,7 +712,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=86",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=86",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -722,7 +722,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=101",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=101",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -732,7 +732,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=118",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FProductScanner.php&line=118",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -744,7 +744,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=23",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=23",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -754,7 +754,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=59",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=59",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -764,7 +764,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=74",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=74",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -774,7 +774,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FScanners%2FSEOScanner.php&line=90",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -786,7 +786,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$overall&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=9",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=9",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -796,7 +796,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=11",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=11",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -806,7 +806,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=11",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=11",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -816,7 +816,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=14",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=14",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -826,7 +826,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=14",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=14",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -836,7 +836,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=16",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=16",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -846,7 +846,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=16",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=16",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -856,7 +856,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=18",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=18",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -866,7 +866,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=18",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=18",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -876,7 +876,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=20",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=20",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -886,7 +886,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=20",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=20",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -896,7 +896,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=25",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=25",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -906,7 +906,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=39",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=39",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -916,7 +916,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=43",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=43",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -926,7 +926,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=48",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=48",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -936,7 +936,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=54",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=54",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -946,7 +946,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=57",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=57",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -956,7 +956,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$scanner_id&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=59",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=59",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -966,7 +966,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=73",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=73",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -976,7 +976,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=76",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=76",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -986,7 +986,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=78",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=78",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -996,7 +996,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=88",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=88",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1006,7 +1006,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=89",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=89",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1016,7 +1016,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=90",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1026,7 +1026,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=91",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=91",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1036,7 +1036,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=92",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=92",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1046,7 +1046,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$row&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=96",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=96",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1056,7 +1056,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=112",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdashboard.php&line=112",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1068,7 +1068,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$report&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=13",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=13",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1078,7 +1078,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$overall&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=15",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=15",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1088,7 +1088,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=17",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=17",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1098,7 +1098,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=17",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=17",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1108,7 +1108,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=19",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=19",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1118,7 +1118,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=19",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=19",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1128,7 +1128,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$health_label&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=21",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=21",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1138,7 +1138,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=21",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=21",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1148,7 +1148,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=25",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=25",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1158,7 +1158,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=26",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=26",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1168,7 +1168,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=43",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=43",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1178,7 +1178,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=52",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=52",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1188,7 +1188,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=66",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=66",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1198,7 +1198,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=68",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=68",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1208,7 +1208,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=73",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=73",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1218,7 +1218,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=74",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=74",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1228,7 +1228,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=75",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=75",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1238,7 +1238,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$issue&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=79",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fdokan-vendor-health.php&line=79",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1250,7 +1250,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$severity_labels&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=11",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=11",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1260,7 +1260,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=12",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=12",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1270,7 +1270,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=13",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=13",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1280,7 +1280,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=14",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=14",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1290,7 +1290,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$severity_icons&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=17",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=17",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1300,7 +1300,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=24",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=24",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1310,7 +1310,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=27",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=27",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1320,7 +1320,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=32",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=32",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1330,7 +1330,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=33",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=33",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1340,7 +1340,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=34",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=34",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1350,7 +1350,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=35",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=35",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1360,7 +1360,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$row&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=39",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=39",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1370,7 +1370,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$icon&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=49",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=49",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1380,7 +1380,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=61",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=61",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1390,7 +1390,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=64",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=64",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1400,7 +1400,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=73",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=73",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1410,7 +1410,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=76",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=76",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1420,7 +1420,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=81",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=81",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1430,7 +1430,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=82",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=82",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1440,7 +1440,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=83",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=83",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1450,7 +1450,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=84",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=84",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1460,7 +1460,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=85",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=85",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1470,7 +1470,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$batch&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=89",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=89",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1480,7 +1480,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$fully_reverted&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=90",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1490,7 +1490,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=98",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=98",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1500,7 +1500,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=102",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=102",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1510,7 +1510,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=106",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=106",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1520,7 +1520,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=113",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=113",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1530,7 +1530,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=131",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=131",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1540,7 +1540,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=134",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=134",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1550,7 +1550,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=135",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fissues.php&line=135",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1562,7 +1562,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=10",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=10",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1572,7 +1572,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=12",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=12",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1582,7 +1582,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=16",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=16",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1592,7 +1592,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=21",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=21",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1602,7 +1602,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=22",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=22",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1612,7 +1612,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=23",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=23",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1622,7 +1622,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=24",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=24",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1632,7 +1632,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=25",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=25",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1642,7 +1642,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=26",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=26",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1652,7 +1652,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=27",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=27",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1662,7 +1662,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$vendor&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=31",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=31",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1672,7 +1672,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'wc-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=42",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Ftemplates%2Fvendors.php&line=42",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1684,7 +1684,7 @@
             {
                 "message": "The \"Plugin URI\" header in the plugin file is not valid. Discouraged domain \"example.com\" found. This is the homepage of the plugin, which should be a unique URL, preferably on your own website.",
                 "code": "plugin_header_invalid_plugin_uri_domain",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
                 "docs": "https://developer.wordpress.org/plugins/plugin-basics/header-requirements/#header-fields",
                 "severity": 7,
                 "type": "ERROR",
@@ -1694,7 +1694,7 @@
             {
                 "message": "Missing \"License\" in Plugin Header. Please update your Plugin Header with a valid GPLv2 (or later) compatible license.",
                 "code": "plugin_header_no_license",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
                 "docs": "https://developer.wordpress.org/plugins/wordpress-org/common-issues/#no-gpl-compatible-license-declared",
                 "severity": 9,
                 "type": "ERROR",
@@ -1704,7 +1704,7 @@
             {
                 "message": "The \"Text Domain\" header in the plugin file does not match the slug. Found \"woocommerce-store-doctor\", expected \"WooCommerce-Store-Doctor-main\".",
                 "code": "textdomain_mismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 6,
                 "type": "WARNING",
@@ -1714,7 +1714,7 @@
             {
                 "message": "The plugin name includes a restricted term. Your chosen plugin name - \"WooCommerce Store Doctor\" - contains the restricted term \"woocommerce\" which cannot be used within in your plugin name, unless your plugin name contains one of the allowed patterns: \"for woocommerce\", \"with woocommerce\", \"using woocommerce\", or \"and woocommerce\". The term must still not appear anywhere else in your name.",
                 "code": "trademarked_term",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -1724,7 +1724,7 @@
             {
                 "message": "The plugin slug includes a restricted term. Your plugin slug - \"WooCommerce-Store-Doctor-main\" - contains the restricted term \"woo\" which cannot be used at all in your plugin slug.",
                 "code": "trademarked_term",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -1734,7 +1734,7 @@
             {
                 "message": "Mismatched text domain. Expected 'WooCommerce-Store-Doctor-main' but got 'woocommerce-store-doctor'.",
                 "code": "WordPress.WP.I18n.TextDomainMismatch",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&line=49",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&line=49",
                 "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
                 "severity": 5,
                 "type": "ERROR",
@@ -1744,171 +1744,121 @@
         ],
         "includes/Core/IssueManager.php": [
             {
-                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 85.",
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 87.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=92",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 90,
+                "line": 92,
                 "column": 17
             },
             {
                 "message": "Use placeholders and $wpdb->prepare(); found $sql",
                 "code": "WordPress.DB.PreparedSQL.NotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=90",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=92",
                 "docs": "",
                 "severity": 5,
                 "type": "ERROR",
-                "line": 90,
+                "line": 92,
                 "column": 46
             },
             {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 99.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 101.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=101",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=105",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 101,
+                "line": 105,
                 "column": 17
             },
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t FROM {$table}\\n",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=103",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=107",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 103,
+                "line": 107,
                 "column": 1
             },
             {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 116.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 120.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=118",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=122",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 118,
+                "line": 122,
                 "column": 17
             },
             {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT id, object_type, object_id, fixer FROM {$table} WHERE type = %s AND status = %s&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=120",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 120,
-                "column": 5
-            },
-            {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 134.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 138.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=136",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=140",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 136,
+                "line": 140,
                 "column": 17
             },
             {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = &#039;product&#039;&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=138",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 138,
-                "column": 5
-            },
-            {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 153.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 157.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=155",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=159",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 155,
+                "line": 159,
                 "column": 17
             },
             {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = &#039;product&#039;&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=157",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 157,
-                "column": 5
-            },
-            {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 176.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 180.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=184",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=188",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 184,
+                "line": 188,
                 "column": 17
             },
             {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT severity FROM {$table} WHERE status = &#039;open&#039; AND object_type = &#039;product&#039; AND object_id IN ({$placeholders})&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=186",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 186,
-                "column": 5
-            },
-            {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$placeholders} at &quot;SELECT severity FROM {$table} WHERE status = &#039;open&#039; AND object_type = &#039;product&#039; AND object_id IN ({$placeholders})&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=186",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 186,
-                "column": 5
-            },
-            {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 201.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 205.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=211",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=215",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 211,
+                "line": 215,
                 "column": 17
             },
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT scanner, type, severity, message, object_id FROM {$table}\\n",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=213",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=217",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 213,
+                "line": 217,
                 "column": 5
             },
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$placeholders} at \\t\\t\\t\\t WHERE status = &#039;open&#039; AND object_type = &#039;product&#039; AND object_id IN ({$placeholders})\\n",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=214",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FIssueManager.php&line=218",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 214,
+                "line": 218,
                 "column": 1
             }
         ],
         "readme.txt": [
             {
-                "message": "The \"Tested up to\" header is missing in the readme file.",
-                "code": "missing_readme_header_tested",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Freadme.txt",
+                "message": "Tested up to: 6.8 < 7.1. The \"Tested up to\" value in your plugin is not set to the current version of WordPress. This means your plugin will not show up in searches, as we require plugins to be compatible and documented as tested up to the most recent version of WordPress.",
+                "code": "outdated_tested_upto_header",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Freadme.txt",
                 "docs": "https://developer.wordpress.org/plugins/wordpress-org/how-your-readme-txt-works/#readme-header-information",
                 "severity": 7,
                 "type": "ERROR",
@@ -1916,19 +1866,9 @@
                 "column": 0
             },
             {
-                "message": "Missing \"License\". Please update your readme with a valid GPLv2 (or later) compatible license.",
-                "code": "no_license",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Freadme.txt",
-                "docs": "https://developer.wordpress.org/plugins/wordpress-org/common-issues/#no-gpl-compatible-license-declared",
-                "severity": 9,
-                "type": "ERROR",
-                "line": 0,
-                "column": 0
-            },
-            {
                 "message": "The plugin name includes a restricted term. Your chosen plugin name - \"WooCommerce Store Doctor\" - contains the restricted term \"woocommerce\" which cannot be used within in your plugin name, unless your plugin name contains one of the allowed patterns: \"for woocommerce\", \"with woocommerce\", \"using woocommerce\", or \"and woocommerce\". The term must still not appear anywhere else in your name.",
                 "code": "trademarked_term",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Freadme.txt",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Freadme.txt",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
@@ -1940,49 +1880,39 @@
             {
                 "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 56.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=58",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=60",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 58,
+                "line": 60,
                 "column": 18
             },
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at \\t\\t\\t\\t\\tSELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT %d\\n",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=61",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=63",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 61,
+                "line": 63,
                 "column": 1
             },
             {
-                "message": "Unescaped parameter $table used in $wpdb-&gt;get_row()\\n$table assigned unsafely at line 72.",
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_row()\\n$table assigned unsafely at line 74.",
                 "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=74",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=76",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
-                "line": 74,
+                "line": 76,
                 "column": 17
-            },
-            {
-                "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;SELECT * FROM {$table} ORDER BY scanned_at DESC LIMIT 1&quot;",
-                "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Fincludes%2FCore%2FScoreManager.php&line=74",
-                "docs": "",
-                "severity": 5,
-                "type": "WARNING",
-                "line": 74,
-                "column": 26
             }
         ],
         "uninstall.php": [
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$tables&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=12",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=12",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -1992,7 +1922,7 @@
             {
                 "message": "Global variables defined by a theme/plugin should start with the theme/plugin prefix. Found: &quot;$table&quot;.",
                 "code": "WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=17",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=17",
                 "docs": "",
                 "severity": 6,
                 "type": "WARNING",
@@ -2002,7 +1932,7 @@
             {
                 "message": "Use placeholders and $wpdb-&gt;prepare(); found interpolated variable {$table} at &quot;DROP TABLE IF EXISTS {$table}&quot;",
                 "code": "WordPress.DB.PreparedSQL.InterpolatedNotPrepared",
-                "link": "https://playground.wordpress.net/scope:sad-quiet-park/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=18",
+                "link": "https://playground.wordpress.net/scope:honest-cozy-lake/wp-admin/plugin-editor.php?plugin=WooCommerce-Store-Doctor-main%2Fwoocommerce-store-doctor.php&file=WooCommerce-Store-Doctor-main%2Funinstall.php&line=18",
                 "docs": "",
                 "severity": 5,
                 "type": "WARNING",
