@@ -9,14 +9,14 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 
 global $wpdb;
 
-$tables = array(
+$wcsd_tables = array(
 	$wpdb->prefix . 'wcsd_issues',
 	$wpdb->prefix . 'wcsd_health_history',
 );
 
-foreach ( $tables as $table ) {
+foreach ( $wcsd_tables as $wcsd_table ) {
 	// Table names are generated from the trusted WordPress database prefix.
-	$wpdb->query( "DROP TABLE IF EXISTS {$table}" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
+	$wpdb->query( "DROP TABLE IF EXISTS {$wcsd_table}" ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 }
 
 delete_option( 'wcsd_db_version' );
