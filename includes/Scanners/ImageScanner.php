@@ -18,7 +18,7 @@ class ImageScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Images', 'wc-store-doctor' );
+		return __( 'Images', 'woocommerce-store-doctor' );
 	}
 
 	public function scan() {
@@ -40,7 +40,11 @@ class ImageScanner extends AbstractScanner {
 				$issues[] = $this->make_issue(
 					'missing_featured_image',
 					'critical',
-					sprintf( __( 'Product "%s" has no featured image.', 'wc-store-doctor' ), $product->get_name() ),
+					sprintf(
+						/* translators: %s: product name */
+						__( 'Product "%s" has no featured image.', 'woocommerce-store-doctor' ),
+						$product->get_name()
+					),
 					'product',
 					$product_id,
 					true,
@@ -52,7 +56,11 @@ class ImageScanner extends AbstractScanner {
 				$issues[] = $this->make_issue(
 					'missing_gallery',
 					'warning',
-					sprintf( __( 'Product "%s" has no gallery images.', 'wc-store-doctor' ), $product->get_name() ),
+					sprintf(
+						/* translators: %s: product name */
+						__( 'Product "%s" has no gallery images.', 'woocommerce-store-doctor' ),
+						$product->get_name()
+					),
 					'product',
 					$product_id,
 					false,
