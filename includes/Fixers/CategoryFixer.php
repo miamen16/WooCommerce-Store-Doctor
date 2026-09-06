@@ -19,7 +19,7 @@ class CategoryFixer extends AbstractFixer {
 	}
 
 	public function label() {
-		return __( 'Assign default category', 'wc-store-doctor' );
+		return __( 'Assign default category', 'woocommerce-store-doctor' );
 	}
 
 	private function get_default_term() {
@@ -62,7 +62,7 @@ class CategoryFixer extends AbstractFixer {
 			$items[] = array(
 				'object_id' => $product_id,
 				'label'     => $product->get_name(),
-				'current'   => __( 'No category', 'wc-store-doctor' ),
+				'current'   => __( 'No category', 'woocommerce-store-doctor' ),
 				'proposed'  => $term->name,
 			);
 		}
