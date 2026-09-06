@@ -38,11 +38,13 @@ class ProductFilter {
 	}
 
 	private function get_requested_type() {
-		return isset( $_GET['wcsd_type'] ) ? sanitize_key( wp_unslash( $_GET['wcsd_type'] ) ) : '';
+		// Nonce is verified by filter_query() / render_filter_notice() before this helper is used.
+		return isset( $_GET['wcsd_type'] ) ? sanitize_key( wp_unslash( $_GET['wcsd_type'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 	}
 
 	private function get_requested_scanner() {
-		return isset( $_GET['wcsd_scanner'] ) ? sanitize_key( wp_unslash( $_GET['wcsd_scanner'] ) ) : '';
+		// Nonce is verified by filter_query() / render_filter_notice() before this helper is used.
+		return isset( $_GET['wcsd_scanner'] ) ? sanitize_key( wp_unslash( $_GET['wcsd_scanner'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 	}
 
 	private function has_valid_filter_nonce() {
