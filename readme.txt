@@ -1,9 +1,9 @@
-=== WooCommerce Store Doctor ===
+=== Store Doctor for WooCommerce ===
 Contributors: mohamed
 Tags: woocommerce, diagnostics, store health, seo, inventory
 Requires PHP: 7.4
 Requires at least: 6.0
-Tested up to: 6.8
+Tested up to: 7.1
 Stable tag: 1.0.0-alpha
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@ Diagnose your WooCommerce store. Fix what hurts. Grow what works.
 
 == Description ==
 
-WooCommerce Store Doctor scans your store and turns problems into:
+Store Doctor for WooCommerce scans your store and turns problems into:
 Issue -> Explanation -> Recommendation -> Fix.
 
 This is Phase 1-7 of the build (Core Architecture, Scanner Engine,
