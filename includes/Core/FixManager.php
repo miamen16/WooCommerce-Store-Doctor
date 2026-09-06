@@ -41,14 +41,14 @@ class FixManager {
 		$rows = $this->issue_manager->get_issues_by_type( $issue_type );
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
 		}
 
 		$fixer_id = $rows[0]->fixer;
 		$fixer    = $this->get( $fixer_id );
 
 		if ( ! $fixer ) {
-			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
 		}
 
 		$object_ids = wp_list_pluck( $rows, 'object_id' );
@@ -74,14 +74,14 @@ class FixManager {
 		$rows = $this->issue_manager->get_issues_by_type( $issue_type );
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
 		}
 
 		$fixer_id = $rows[0]->fixer;
 		$fixer    = $this->get( $fixer_id );
 
 		if ( ! $fixer ) {
-			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
 		}
 
 		// Map object_id => issue_id so we know which issue rows to resolve.
@@ -94,7 +94,7 @@ class FixManager {
 		$results    = $fixer->apply( $object_ids );
 
 		if ( empty( $results ) ) {
-			return new \WP_Error( 'wcsd_nothing_fixed', __( 'None of these items could be fixed automatically.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_nothing_fixed', __( 'None of these items could be fixed automatically.', 'woocommerce-store-doctor' ) );
 		}
 
 		$batch_id     = 'wcsd_' . substr( wp_generate_password( 12, false, false ), 0, 12 ) . '_' . time();
@@ -144,7 +144,7 @@ class FixManager {
 		);
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_nothing_to_revert', __( 'Nothing to revert for this batch.', 'wc-store-doctor' ) );
+			return new \WP_Error( 'wcsd_nothing_to_revert', __( 'Nothing to revert for this batch.', 'woocommerce-store-doctor' ) );
 		}
 
 		$reverted = 0;
