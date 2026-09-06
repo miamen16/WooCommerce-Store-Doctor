@@ -19,7 +19,7 @@ class ImageAltTextFixer extends AbstractFixer {
 	}
 
 	public function label() {
-		return __( 'Set image alt text to product name', 'wc-store-doctor' );
+		return __( 'Set image alt text to product name', 'woocommerce-store-doctor' );
 	}
 
 	public function preview( array $object_ids ) {
@@ -34,7 +34,7 @@ class ImageAltTextFixer extends AbstractFixer {
 			$items[] = array(
 				'object_id' => $product_id,
 				'label'     => $product->get_name(),
-				'current'   => __( '(empty)', 'wc-store-doctor' ),
+				'current'   => __( '(empty)', 'woocommerce-store-doctor' ),
 				'proposed'  => $product->get_name(),
 			);
 		}
