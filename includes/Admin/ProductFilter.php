@@ -45,6 +45,15 @@ class ProductFilter {
 		return isset( $_GET['wcsd_scanner'] ) ? sanitize_key( wp_unslash( $_GET['wcsd_scanner'] ) ) : '';
 	}
 
+	private function has_valid_filter_nonce() {
+		if ( ! isset( $_GET['_wcsd_filter_nonce'] ) ) {
+			return false;
+		}
+
+		$nonce = sanitize_text_field( wp_unslash( $_GET['_wcsd_filter_nonce'] ) );
+		return (bool) wp_verify_nonce( $nonce, 'wcsd_product_filter' );
+	}
+
 	/**
 	 * Resolve the current request to a product-id list, or null if no
 	 * Store Doctor filter is active on this request.
@@ -72,6 +81,10 @@ class ProductFilter {
 			return;
 		}
 
+		if ( ( $this->get_requested_type() || $this->get_requested_scanner() ) && ! $this->has_valid_filter_nonce() ) {
+			return;
+		}
+
 		$ids = $this->resolve_ids();
 		if ( null === $ids ) {
 			return;
@@ -95,13 +108,17 @@ class ProductFilter {
 			return;
 		}
 
+		if ( ! $this->has_valid_filter_nonce() ) {
+			return;
+		}
+
 		$ids   = $this->resolve_ids();
 		$count = is_array( $ids ) ? count( $ids ) : 0;
 		$label = $type
 			? ucwords( str_replace( '_', ' ', $type ) )
 			: ucwords( str_replace( '_', ' ', $scanner ) ) . ' ' . __( 'issues', 'woocommerce-store-doctor' );
 
-		$clear_url = remove_query_arg( array( 'wcsd_type', 'wcsd_scanner' ) );
+		$clear_url = remove_query_arg( array( 'wcsd_type', 'wcsd_scanner', '_wcsd_filter_nonce' ) );
 
 		echo '<div class="notice notice-info wcsd-filter-notice"><p>';
 		printf(
