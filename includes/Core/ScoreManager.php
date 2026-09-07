@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 class ScoreManager {
 
 	// Trusted SQL table identifiers are generated internally by Database; dynamic values use prepare().
-	// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching
+	// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching, PluginCheck.Security.DirectDB.UnescapedDBParameter
 
 	public function calculate_overall( array $category_scores ) {
 		if ( empty( $category_scores ) ) {
@@ -52,5 +52,5 @@ class ScoreManager {
 		return $wpdb->get_row( $sql );
 	}
 
-	// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching
+	// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching, PluginCheck.Security.DirectDB.UnescapedDBParameter
 }
