@@ -37,8 +37,21 @@ class InventoryScanner extends AbstractScanner {
 
 		foreach ( $product_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product || $product->is_type( 'variable' ) ) {
-				continue; // Variations are checked individually below.
+			if ( ! $product ) {
+				continue;
+			}
+
+			if ( $product->is_type( 'variable' ) ) {
+				foreach ( $product->get_children() as $variation_id ) {
+					$variation = wc_get_product( $variation_id );
+					if ( ! $variation || 'publish' !== $variation->get_status() ) {
+						continue;
+					}
+
+					$checked++;
+					$issues = array_merge( $issues, $this->check_stock( $variation, $low_stock_threshold ) );
+				}
+				continue;
 			}
 
 			$checked++;
