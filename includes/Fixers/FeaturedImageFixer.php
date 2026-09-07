@@ -28,7 +28,7 @@ class FeaturedImageFixer extends AbstractFixer {
 
 		foreach ( $object_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product ) {
+			if ( ! $product || $product->get_image_id() ) {
 				continue;
 			}
 
@@ -57,7 +57,9 @@ class FeaturedImageFixer extends AbstractFixer {
 
 		foreach ( $object_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product ) {
+			if ( ! $product || $product->get_image_id() ) {
+				// The issue may have been resolved since the scan. Never overwrite
+				// a featured image that now exists.
 				continue;
 			}
 
