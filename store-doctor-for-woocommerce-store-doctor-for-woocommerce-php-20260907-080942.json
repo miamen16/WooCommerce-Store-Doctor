@@ -1,0 +1,1450 @@
+{
+    "generated_at": "2026-09-07 08:09:42",
+    "plugin": "Store Doctor for WooCommerce",
+    "results": {
+        "includes/Admin/Dashboard.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=33",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 33,
+                "column": 33
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=34",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 34,
+                "column": 33
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=44",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 44,
+                "column": 30
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=45",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 45,
+                "column": 30
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=53",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 53,
+                "column": 27
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=54",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 54,
+                "column": 27
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=84",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 84,
+                "column": 64
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=85",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 85,
+                "column": 83
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=86",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 86,
+                "column": 61
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=87",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 87,
+                "column": 61
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=88",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 88,
+                "column": 54
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=89",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 89,
+                "column": 100
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=90",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 90,
+                "column": 73
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FDashboard.php&line=91",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 91,
+                "column": 119
+            }
+        ],
+        "includes/Admin/ProductFilter.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FProductFilter.php&line=121",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 121,
+                "column": 82
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FProductFilter.php&line=128",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 128,
+                "column": 81
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FProductFilter.php&line=132",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 132,
+                "column": 88
+            }
+        ],
+        "includes/Admin/VendorsPage.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FVendorsPage.php&line=30",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 30,
+                "column": 28
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FAdmin%2FVendorsPage.php&line=31",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 31,
+                "column": 28
+            }
+        ],
+        "includes/Core/FixManager.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=38",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 38,
+                "column": 100
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=43",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 43,
+                "column": 97
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=59",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 59,
+                "column": 100
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=64",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 64,
+                "column": 97
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=73",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 73,
+                "column": 114
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=106",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 106,
+                "column": 102
+            },
+            {
+                "message": "Use of a direct database call is discouraged.",
+                "code": "WordPress.DB.DirectDatabaseQuery.DirectQuery",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FFixManager.php&line=145",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 145,
+                "column": 9
+            }
+        ],
+        "includes/Core/Plugin.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FPlugin.php&line=100",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 100,
+                "column": 86
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FPlugin.php&line=125",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 125,
+                "column": 80
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FPlugin.php&line=147",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 147,
+                "column": 80
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FPlugin.php&line=168",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 168,
+                "column": 78
+            }
+        ],
+        "includes/Core/VendorHealth.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FVendorHealth.php&line=146",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 146,
+                "column": 63
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FVendorHealth.php&line=172",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 172,
+                "column": 85
+            }
+        ],
+        "includes/Dokan/VendorDashboardTab.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FDokan%2FVendorDashboardTab.php&line=46",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 46,
+                "column": 44
+            }
+        ],
+        "includes/Fixers/CategoryFixer.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FCategoryFixer.php&line=22",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 22,
+                "column": 47
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FCategoryFixer.php&line=65",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 65,
+                "column": 51
+            }
+        ],
+        "includes/Fixers/FeaturedImageFixer.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=23",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 23,
+                "column": 65
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=43",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 43,
+                "column": 57
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FFeaturedImageFixer.php&line=46",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 46,
+                "column": 51
+            }
+        ],
+        "includes/Fixers/ImageAltTextFixer.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=22",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 22,
+                "column": 58
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FFixers%2FImageAltTextFixer.php&line=37",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 37,
+                "column": 47
+            }
+        ],
+        "includes/Scanners/ImageScanner.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FImageScanner.php&line=21",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 21,
+                "column": 30
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FImageScanner.php&line=45",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 45,
+                "column": 68
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FImageScanner.php&line=61",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 61,
+                "column": 68
+            }
+        ],
+        "includes/Scanners/InventoryScanner.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FInventoryScanner.php&line=23",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 23,
+                "column": 33
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FInventoryScanner.php&line=63",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 63,
+                "column": 81
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FInventoryScanner.php&line=81",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 81,
+                "column": 58
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FInventoryScanner.php&line=94",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 94,
+                "column": 77
+            }
+        ],
+        "includes/Scanners/PricingScanner.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FPricingScanner.php&line=23",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 23,
+                "column": 31
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FPricingScanner.php&line=65",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 65,
+                "column": 59
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FPricingScanner.php&line=81",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 81,
+                "column": 58
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FPricingScanner.php&line=96",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 96,
+                "column": 100
+            }
+        ],
+        "includes/Scanners/ProductScanner.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=22",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 22,
+                "column": 32
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=58",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 58,
+                "column": 61
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=71",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 71,
+                "column": 94
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=86",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 86,
+                "column": 53
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=101",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 101,
+                "column": 74
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FProductScanner.php&line=118",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 118,
+                "column": 84
+            }
+        ],
+        "includes/Scanners/SEOScanner.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FSEOScanner.php&line=23",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 23,
+                "column": 27
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FSEOScanner.php&line=59",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 59,
+                "column": 99
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FSEOScanner.php&line=74",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 74,
+                "column": 104
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FScanners%2FSEOScanner.php&line=90",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 90,
+                "column": 73
+            }
+        ],
+        "templates/dashboard.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=11",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 11,
+                "column": 42
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=14",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 14,
+                "column": 54
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=16",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 16,
+                "column": 49
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=18",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 18,
+                "column": 53
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=20",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 20,
+                "column": 46
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=25",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 25,
+                "column": 59
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=39",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 39,
+                "column": 54
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=43",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 43,
+                "column": 82
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=48",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 48,
+                "column": 49
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=54",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 54,
+                "column": 41
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=57",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 57,
+                "column": 72
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=73",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 73,
+                "column": 51
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=76",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 76,
+                "column": 90
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=78",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 78,
+                "column": 85
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=88",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 88,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=89",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 89,
+                "column": 56
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=90",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 90,
+                "column": 59
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=91",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 91,
+                "column": 59
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=92",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 92,
+                "column": 62
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdashboard.php&line=112",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 112,
+                "column": 54
+            }
+        ],
+        "templates/dokan-vendor-health.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=17",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 17,
+                "column": 46
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=19",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 19,
+                "column": 49
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=21",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 21,
+                "column": 45
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=25",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 25,
+                "column": 43
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=26",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 26,
+                "column": 87
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=43",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 43,
+                "column": 70
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=52",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 52,
+                "column": 44
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=66",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 66,
+                "column": 50
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=68",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 68,
+                "column": 87
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=73",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 73,
+                "column": 54
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=74",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 74,
+                "column": 52
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fdokan-vendor-health.php&line=75",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 75,
+                "column": 55
+            }
+        ],
+        "templates/issues.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=12",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 12,
+                "column": 37
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=13",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 13,
+                "column": 36
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=14",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 14,
+                "column": 39
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=24",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 24,
+                "column": 43
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=27",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 27,
+                "column": 106
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=32",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 32,
+                "column": 52
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=33",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 33,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=34",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 34,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=35",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 35,
+                "column": 53
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=61",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 61,
+                "column": 62
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=64",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 64,
+                "column": 94
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=73",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 73,
+                "column": 43
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=76",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 76,
+                "column": 59
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=81",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 81,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=82",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 82,
+                "column": 56
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=83",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 83,
+                "column": 56
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=84",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 84,
+                "column": 57
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=85",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 85,
+                "column": 57
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=98",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 98,
+                "column": 61
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=102",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 102,
+                "column": 80
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=106",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 106,
+                "column": 60
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=113",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 113,
+                "column": 69
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=131",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 131,
+                "column": 81
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=134",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 134,
+                "column": 105
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fissues.php&line=135",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 135,
+                "column": 135
+            }
+        ],
+        "templates/vendors.php": [
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=10",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 10,
+                "column": 44
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=12",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 12,
+                "column": 134
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=16",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 16,
+                "column": 51
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=21",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 21,
+                "column": 53
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=22",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 22,
+                "column": 52
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=23",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 23,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=24",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 24,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=25",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 25,
+                "column": 55
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=26",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 26,
+                "column": 58
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=27",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 27,
+                "column": 53
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Ftemplates%2Fvendors.php&line=42",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 42,
+                "column": 72
+            }
+        ],
+        "store-doctor-for-woocommerce.php": [
+            {
+                "message": "The \"Text Domain\" header in the plugin file does not match the slug. Found \"woocommerce-store-doctor\", expected \"store-doctor-for-woocommerce\".",
+                "code": "textdomain_mismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 6,
+                "type": "WARNING",
+                "line": 0,
+                "column": 0
+            },
+            {
+                "message": "Mismatched text domain. Expected 'store-doctor-for-woocommerce' but got 'woocommerce-store-doctor'.",
+                "code": "WordPress.WP.I18n.TextDomainMismatch",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&line=51",
+                "docs": "https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/",
+                "severity": 5,
+                "type": "ERROR",
+                "line": 51,
+                "column": 94
+            }
+        ],
+        "includes/Core/IssueManager.php": [
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 69.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=73",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 73,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 81.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=86",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 86,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_results()\\n$table assigned unsafely at line 91.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=92",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 92,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 103.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=104",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 104,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $table used in $wpdb-&gt;get_col()\\n$table assigned unsafely at line 116.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=117",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 117,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 134.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=135",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 135,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 147.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FIssueManager.php&line=151",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 151,
+                "column": 17
+            }
+        ],
+        "includes/Core/ScoreManager.php": [
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_results()\\n$sql assigned unsafely at line 44.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FScoreManager.php&line=45",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 45,
+                "column": 17
+            },
+            {
+                "message": "Unescaped parameter $sql used in $wpdb-&gt;get_row()\\n$sql assigned unsafely at line 51.",
+                "code": "PluginCheck.Security.DirectDB.UnescapedDBParameter",
+                "link": "https://playground.wordpress.net/scope:determined-quiet-forest/wp-admin/plugin-editor.php?plugin=store-doctor-for-woocommerce%2Fstore-doctor-for-woocommerce.php&file=store-doctor-for-woocommerce%2Fincludes%2FCore%2FScoreManager.php&line=52",
+                "docs": "",
+                "severity": 5,
+                "type": "WARNING",
+                "line": 52,
+                "column": 17
+            }
+        ]
+    }
+}
