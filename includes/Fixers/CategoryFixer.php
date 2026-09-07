@@ -55,7 +55,7 @@ class CategoryFixer extends AbstractFixer {
 
 		foreach ( $object_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product ) {
+			if ( ! $product || $product->get_category_ids() ) {
 				continue;
 			}
 
@@ -80,7 +80,9 @@ class CategoryFixer extends AbstractFixer {
 
 		foreach ( $object_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product ) {
+			if ( ! $product || $product->get_category_ids() ) {
+				// The issue may have been resolved since the scan. Never overwrite
+				// a category that now exists.
 				continue;
 			}
 
