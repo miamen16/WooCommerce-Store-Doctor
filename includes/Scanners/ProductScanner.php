@@ -48,8 +48,10 @@ class ProductScanner extends AbstractScanner {
 	private function check_product( \WC_Product $product ) {
 		$issues = array();
 		$id     = $product->get_id();
+		$body   = wp_strip_all_tags( $product->get_description() );
+		$length = function_exists( 'mb_strlen' ) ? mb_strlen( $body ) : strlen( $body );
 
-		if ( '' === trim( wp_strip_all_tags( $product->get_description() ) ) ) {
+		if ( '' === trim( $body ) ) {
 			$issues[] = $this->make_issue(
 				'missing_description',
 				'warning',
@@ -62,7 +64,7 @@ class ProductScanner extends AbstractScanner {
 				$id,
 				false
 			);
-		} elseif ( strlen( wp_strip_all_tags( $product->get_description() ) ) < 100 ) {
+		} elseif ( $length < 100 ) {
 			$issues[] = $this->make_issue(
 				'short_description_body',
 				'suggestion',
