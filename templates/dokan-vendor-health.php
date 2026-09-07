@@ -14,16 +14,16 @@ $wcsd_report = $wcsd_plugin->vendor_health->get_vendor_report( get_current_user_
 
 $wcsd_overall = $wcsd_report['overall'];
 
-$wcsd_health_label = __( 'Excellent Health', 'woocommerce-store-doctor' );
+$wcsd_health_label = __( 'Excellent Health', 'store-doctor-for-woocommerce' );
 if ( $wcsd_overall['score'] < 50 ) {
-	$wcsd_health_label = __( 'Needs Attention', 'woocommerce-store-doctor' );
+	$wcsd_health_label = __( 'Needs Attention', 'store-doctor-for-woocommerce' );
 } elseif ( $wcsd_overall['score'] < 75 ) {
-	$wcsd_health_label = __( 'Good Health', 'woocommerce-store-doctor' );
+	$wcsd_health_label = __( 'Good Health', 'store-doctor-for-woocommerce' );
 }
 
 dokan_get_template_part( 'global/dashboard-header', '', array(
-	'header_title' => __( 'Store Health', 'woocommerce-store-doctor' ),
-	'description'  => __( "See how your listings are doing and what's worth fixing.", 'woocommerce-store-doctor' ),
+	'header_title' => __( 'Store Health', 'store-doctor-for-woocommerce' ),
+	'description'  => __( "See how your listings are doing and what's worth fixing.", 'store-doctor-for-woocommerce' ),
 ) );
 ?>
 
@@ -40,7 +40,7 @@ dokan_get_template_part( 'global/dashboard-header', '', array(
 				<?php
 				printf(
 					/* translators: %d: number of products */
-					esc_html__( 'Based on %d published product(s).', 'woocommerce-store-doctor' ),
+					esc_html__( 'Based on %d published product(s).', 'store-doctor-for-woocommerce' ),
 					(int) $wcsd_overall['product_count']
 				);
 				?>
@@ -49,7 +49,7 @@ dokan_get_template_part( 'global/dashboard-header', '', array(
 	</div>
 
 	<?php if ( ! empty( $wcsd_report['categories'] ) ) : ?>
-		<h3><?php esc_html_e( 'Breakdown', 'woocommerce-store-doctor' ); ?></h3>
+		<h3><?php esc_html_e( 'Breakdown', 'store-doctor-for-woocommerce' ); ?></h3>
 		<div class="wcsd-categories">
 			<?php foreach ( $wcsd_report['categories'] as $wcsd_cat ) : ?>
 				<div class="wcsd-category-row">
@@ -63,16 +63,16 @@ dokan_get_template_part( 'global/dashboard-header', '', array(
 		</div>
 	<?php endif; ?>
 
-	<h3><?php esc_html_e( 'Things worth fixing', 'woocommerce-store-doctor' ); ?></h3>
+	<h3><?php esc_html_e( 'Things worth fixing', 'store-doctor-for-woocommerce' ); ?></h3>
 	<?php if ( empty( $wcsd_report['issues'] ) ) : ?>
-		<p><?php esc_html_e( 'No open issues on your listings right now. Nice work!', 'woocommerce-store-doctor' ); ?></p>
+		<p><?php esc_html_e( 'No open issues on your listings right now. Nice work!', 'store-doctor-for-woocommerce' ); ?></p>
 	<?php else : ?>
 		<table class="dokan-table">
 			<thead>
 				<tr>
-					<th><?php esc_html_e( 'Product', 'woocommerce-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Issue', 'woocommerce-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Severity', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Product', 'store-doctor-for-woocommerce' ); ?></th>
+					<th><?php esc_html_e( 'Issue', 'store-doctor-for-woocommerce' ); ?></th>
+					<th><?php esc_html_e( 'Severity', 'store-doctor-for-woocommerce' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
