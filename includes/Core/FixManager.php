@@ -94,7 +94,9 @@ class FixManager {
 	public function revert_batch( $batch_id ) {
 		global $wpdb;
 		$table = Database::backups_table();
-		$rows = $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		// Database table identifiers are generated internally; the query parameters are prepared below.
+		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery
+		$rows = $wpdb->get_results( // phpcs:ignore PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
 				// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT * FROM " . $table . " WHERE batch_id = %s AND reverted = 0",
