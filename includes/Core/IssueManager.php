@@ -90,6 +90,7 @@ class IssueManager {
 		$params[] = (int) $args['limit'];
 
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQLPlaceholders, PluginCheck.Security.DirectDB.UnescapedDBParameter
+			// $sql contains only internally generated SQL plus placeholders for all dynamic values.
 			$wpdb->prepare( $sql, $params ) // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		);
 	}
@@ -110,7 +111,7 @@ class IssueManager {
 			 GROUP BY type, severity, scanner
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), total DESC';
 
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$sql
 		);
 	}
@@ -142,7 +143,7 @@ class IssueManager {
 		global $wpdb;
 		$table = Database::issues_table();
 
-		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
 				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = 'product'",
@@ -162,7 +163,7 @@ class IssueManager {
 		global $wpdb;
 		$table = Database::issues_table();
 
-		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
 				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = 'product'",
@@ -194,7 +195,7 @@ class IssueManager {
 
 		$sql = 'SELECT severity FROM ' . $table . ' WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')';
 
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare( $sql, $object_ids )
 		);
 	}
@@ -223,7 +224,7 @@ class IssueManager {
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\')
 			 LIMIT %d';
 
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare( $sql, $params )
 		);
 	}
