@@ -33,7 +33,7 @@ class ImageAltTextFixer extends AbstractFixer {
 			$product = wc_get_product( $product_id );
 			$image_id = $product ? $product->get_image_id() : 0;
 
-			if ( ! $image_id || $this->is_shared_image( $image_id ) ) {
+			if ( ! $image_id || $this->is_shared_image( $image_id ) || get_post_meta( $image_id, '_wp_attachment_image_alt', true ) !== '' ) {
 				continue;
 			}
 
@@ -64,10 +64,17 @@ class ImageAltTextFixer extends AbstractFixer {
 				continue;
 			}
 
+			$current_alt = (string) get_post_meta( $image_id, '_wp_attachment_image_alt', true );
+			if ( '' !== $current_alt ) {
+				// The issue may have been resolved since the scan. Never overwrite
+				// an alt text that now exists.
+				continue;
+			}
+
 			$product_image_map[ $product_id ] = $image_id;
 
 			if ( ! array_key_exists( $image_id, $image_old_values ) ) {
-				$image_old_values[ $image_id ] = get_post_meta( $image_id, '_wp_attachment_image_alt', true );
+				$image_old_values[ $image_id ] = $current_alt;
 			}
 		}
 
