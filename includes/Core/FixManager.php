@@ -13,6 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) {
  * FixManager's job is: find which objects have the issue, ask the fixer to
  * preview/apply/revert, and keep the backup + issue-status bookkeeping straight.
  */
+// Database table identifiers are generated internally by Database; dynamic values use prepare().
+// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
 class FixManager {
 
 	/** @var AbstractFixer[] */
@@ -94,15 +96,11 @@ class FixManager {
 	public function revert_batch( $batch_id ) {
 		global $wpdb;
 		$table = Database::backups_table();
-		// Database table identifiers are generated internally; the query parameters are prepared below.
-		// phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery
-		$rows = $wpdb->get_results( // phpcs:ignore PluginCheck.Security.DirectDB.UnescapedDBParameter
+		$rows = $wpdb->get_results(
 			$wpdb->prepare(
-				// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-				"SELECT * FROM " . $table . " WHERE batch_id = %s AND reverted = 0",
-				// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
-				$batch_id
-			)
+			"SELECT * FROM " . $table . " WHERE batch_id = %s AND reverted = 0",
+			$batch_id
+		)
 		);
 		if ( empty( $rows ) ) {
 			return new \WP_Error( 'wcsd_nothing_to_revert', __( 'Nothing to revert for this batch.', 'store-doctor-for-woocommerce' ) );
@@ -115,7 +113,7 @@ class FixManager {
 			}
 			$row->meta = $row->meta ? json_decode( $row->meta, true ) : null;
 			$fixer->revert_one( $row );
-			$wpdb->update( $table, array( 'reverted' => 1 ), array( 'id' => $row->id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			$wpdb->update( $table, array( 'reverted' => 1 ), array( 'id' => $row->id ) );
 			$reverted++;
 		}
 		return array( 'reverted' => $reverted );
@@ -124,19 +122,17 @@ class FixManager {
 	public function get_recent_batches( $limit = 10 ) {
 		global $wpdb;
 		$table = Database::backups_table();
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results(
 			$wpdb->prepare(
-				// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-				"SELECT batch_id, fixer,
-					COUNT(*) as total,
-					SUM(reverted) as reverted_count,
-					MIN(created_at) as created_at
-				 FROM " . $table . "
-				 GROUP BY batch_id, fixer
-				 ORDER BY created_at DESC
-				 LIMIT %d",
-				// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
-				(int) $limit
+			"SELECT batch_id, fixer,
+				COUNT(*) as total,
+				SUM(reverted) as reverted_count,
+				MIN(created_at) as created_at
+			 FROM " . $table . "
+			 GROUP BY batch_id, fixer
+			 ORDER BY created_at DESC
+			 LIMIT %d",
+			(int) $limit
 			)
 		);
 	}
@@ -155,6 +151,7 @@ class FixManager {
 			'meta' => $meta ? wp_json_encode( $meta ) : null,
 			'reverted' => 0,
 			'created_at' => current_time( 'mysql' ),
-		) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		) );
 	}
 }
+// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
