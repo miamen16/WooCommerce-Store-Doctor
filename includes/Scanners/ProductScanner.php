@@ -19,7 +19,7 @@ class ProductScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Products', 'woocommerce-store-doctor' );
+		return __( 'Products', 'store-doctor-for-woocommerce' );
 	}
 
 	public function scan() {
@@ -55,7 +55,7 @@ class ProductScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no description.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has no description.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -68,7 +68,7 @@ class ProductScanner extends AbstractScanner {
 				'suggestion',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has a very short description (under 100 characters).', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has a very short description (under 100 characters).', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -83,7 +83,7 @@ class ProductScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no SKU.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has no SKU.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -98,7 +98,7 @@ class ProductScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" is not assigned to any category.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" is not assigned to any category.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -115,7 +115,7 @@ class ProductScanner extends AbstractScanner {
 				'suggestion',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no up-sells or cross-sells configured.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has no up-sells or cross-sells configured.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
