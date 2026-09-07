@@ -142,6 +142,7 @@ class FixManager {
 		// $table is a trusted identifier generated internally by Database.
 		$rows = $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
+				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT * FROM " . $table . " WHERE batch_id = %s AND reverted = 0",
 				$batch_id
 			)
@@ -185,6 +186,7 @@ class FixManager {
 		// $table is a trusted identifier generated internally by Database.
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
+				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT batch_id, fixer,
 					COUNT(*) as total,
 					SUM(reverted) as reverted_count,
