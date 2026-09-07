@@ -36,7 +36,20 @@ class PricingScanner extends AbstractScanner {
 
 		foreach ( $product_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product || $product->is_type( 'variable' ) ) {
+			if ( ! $product ) {
+				continue;
+			}
+
+			if ( $product->is_type( 'variable' ) ) {
+				foreach ( $product->get_children() as $variation_id ) {
+					$variation = wc_get_product( $variation_id );
+					if ( ! $variation || 'publish' !== $variation->get_status() ) {
+						continue;
+					}
+
+					$checked++;
+					$issues = array_merge( $issues, $this->check_price( $variation ) );
+				}
 				continue;
 			}
 
@@ -78,7 +91,7 @@ class PricingScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" is priced at $0.', 'store-doctor-for-woocommerce' ),
+					__( 'Product "%s" has a zero price.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
