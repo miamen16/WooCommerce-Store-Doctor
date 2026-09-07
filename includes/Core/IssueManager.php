@@ -16,13 +16,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 class IssueManager {
 
 	// Trusted SQL table identifiers are generated internally by Database; dynamic values use prepare().
-	// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
+	// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching
 
 	public function replace_for_scanner( $scanner_id, array $issues ) {
 		global $wpdb;
 		$table = Database::issues_table();
 		$now   = current_time( 'mysql' );
-		$wpdb->delete( $table, array( 'scanner' => $scanner_id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		$wpdb->delete( $table, array( 'scanner' => $scanner_id ) );
 		foreach ( $issues as $issue ) {
 			$wpdb->insert( $table, array(
 				'scanner' => $scanner_id,
@@ -37,7 +37,7 @@ class IssueManager {
 				'meta' => ! empty( $issue['meta'] ) ? wp_json_encode( $issue['meta'] ) : null,
 				'created_at' => $now,
 				'updated_at' => $now,
-			) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+			) );
 		}
 	}
 
@@ -70,7 +70,7 @@ class IssueManager {
 			. ' ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), id DESC'
 			. ' LIMIT %d';
 		$params[] = (int) $args['limit'];
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQLPlaceholders, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results(
 			$wpdb->prepare( $sql, $params )
 		);
 	}
@@ -83,15 +83,13 @@ class IssueManager {
 			 WHERE status = \'open\'
 			 GROUP BY type, severity, scanner
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), total DESC';
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			$sql
-		);
+		return $wpdb->get_results( $sql );
 	}
 
 	public function get_issues_by_type( $type, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results(
 			$wpdb->prepare(
 				"SELECT id, object_type, object_id, fixer FROM {$table} WHERE type = %s AND status = %s",
 				$type,
@@ -103,7 +101,7 @@ class IssueManager {
 	public function get_object_ids_by_type( $type, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		$ids = $wpdb->get_col(
 			$wpdb->prepare(
 				"SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = 'product'",
 				$type,
@@ -116,7 +114,7 @@ class IssueManager {
 	public function get_object_ids_by_scanner( $scanner, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		$ids = $wpdb->get_col(
 			$wpdb->prepare(
 				"SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = 'product'",
 				$scanner,
@@ -134,9 +132,7 @@ class IssueManager {
 		}
 		$placeholders = implode( ',', array_fill( 0, count( $object_ids ), '%d' ) );
 		$sql = 'SELECT severity FROM ' . $table . ' WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')';
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			$wpdb->prepare( $sql, $object_ids )
-		);
+		return $wpdb->get_results( $wpdb->prepare( $sql, $object_ids ) );
 	}
 
 	public function get_open_issues_details_for_objects( array $object_ids, $limit = 200 ) {
@@ -152,9 +148,7 @@ class IssueManager {
 			 WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\')
 			 LIMIT %d';
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			$wpdb->prepare( $sql, $params )
-		);
+		return $wpdb->get_results( $wpdb->prepare( $sql, $params ) );
 	}
 
 	public function mark_resolved( $issue_id ) {
@@ -163,8 +157,8 @@ class IssueManager {
 		return $wpdb->update( $table, array(
 			'status' => 'resolved',
 			'updated_at' => current_time( 'mysql' ),
-		), array( 'id' => (int) $issue_id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
+		), array( 'id' => (int) $issue_id ) );
 	}
 
-	// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
+	// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared, WordPress.DB.DirectDatabaseQuery.NoCaching
 }
