@@ -12,6 +12,7 @@ global $wpdb;
 $wcsd_tables = array(
 	$wpdb->prefix . 'wcsd_issues',
 	$wpdb->prefix . 'wcsd_health_history',
+	$wpdb->prefix . 'wcsd_fix_backups',
 );
 
 foreach ( $wcsd_tables as $wcsd_table ) {
