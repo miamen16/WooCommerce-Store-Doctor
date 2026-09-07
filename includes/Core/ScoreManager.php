@@ -57,9 +57,8 @@ class ScoreManager {
 
 		// $table is generated internally by Database::history_table() and is
 		// never populated from request data. It is a trusted SQL identifier.
-		$sql = 'SELECT * FROM (
-				SELECT * FROM ' . $table . ' ORDER BY scanned_at DESC LIMIT %d
-			 ) t ORDER BY scanned_at ASC';
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		$sql = 'SELECT * FROM (\n\t\t\t\tSELECT * FROM ' . $table . ' ORDER BY scanned_at DESC LIMIT %d\n\t\t\t ) t ORDER BY scanned_at ASC';
 
 		$rows = $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare( $sql, (int) $limit )
@@ -73,6 +72,7 @@ class ScoreManager {
 		$table = Database::history_table();
 
 		// Trusted table identifier from Database::history_table(); no request data is interpolated.
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT * FROM ' . $table . ' ORDER BY scanned_at DESC LIMIT 1';
 
 		return $wpdb->get_row( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
