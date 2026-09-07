@@ -3,7 +3,7 @@
  * Plugin Name: Store Doctor for WooCommerce
  * Plugin URI:  https://github.com/miamen16/store-doctor-for-woocommerce
  * Description: Diagnose your WooCommerce store. Fix what hurts. Grow what works.
- * Version:     1.0.0-alpha
+ * Version:     1.0.0
  * Author:      Mohamed
  * Text Domain: store-doctor-for-woocommerce
  * Requires Plugins: woocommerce
@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // No direct access.
 }
 
-define( 'WCSD_VERSION', '1.0.0-alpha' );
+define( 'WCSD_VERSION', '1.0.0' );
 define( 'WCSD_FILE', __FILE__ );
 define( 'WCSD_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WCSD_URL', plugin_dir_url( __FILE__ ) );
@@ -48,7 +48,7 @@ spl_autoload_register( function ( $class ) {
  */
 function wcsd_woocommerce_missing_notice() {
 	echo '<div class="notice notice-error"><p>';
-	esc_html_e( 'WooCommerce Store Doctor requires WooCommerce to be installed and active.', 'store-doctor-for-woocommerce' );
+	esc_html_e( 'Store Doctor for WooCommerce requires WooCommerce to be installed and active.', 'store-doctor-for-woocommerce' );
 	echo '</p></div>';
 }
 
