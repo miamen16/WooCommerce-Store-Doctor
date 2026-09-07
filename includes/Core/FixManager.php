@@ -35,20 +35,20 @@ class FixManager {
 	/**
 	 * Preview a fix for every open issue of a given type.
 	 *
-	 * @return array{fixer:string, items:array, total:int}|\WP_Error
+	 * @return array{fixer:string, items:array, total:int}|\\WP_Error
 	 */
 	public function preview_for_type( $issue_type ) {
 		$rows = $this->issue_manager->get_issues_by_type( $issue_type );
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
 		}
 
 		$fixer_id = $rows[0]->fixer;
 		$fixer    = $this->get( $fixer_id );
 
 		if ( ! $fixer ) {
-			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
 		}
 
 		$object_ids = wp_list_pluck( $rows, 'object_id' );
@@ -68,20 +68,20 @@ class FixManager {
 	 * per successfully-changed object under one batch_id, and marks the
 	 * corresponding issues resolved.
 	 *
-	 * @return array{batch_id:string, fixed:int, fixer_label:string}|\WP_Error
+	 * @return array{batch_id:string, fixed:int, fixer_label:string}|\\WP_Error
 	 */
 	public function apply_for_type( $issue_type ) {
 		$rows = $this->issue_manager->get_issues_by_type( $issue_type );
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_no_issues', __( 'No open issues of this type were found.', 'woocommerce-store-doctor' ) );
 		}
 
 		$fixer_id = $rows[0]->fixer;
 		$fixer    = $this->get( $fixer_id );
 
 		if ( ! $fixer ) {
-			return new \WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_no_fixer', __( 'This issue type has no automated fix.', 'woocommerce-store-doctor' ) );
 		}
 
 		// Map object_id => issue_id so we know which issue rows to resolve.
@@ -94,7 +94,7 @@ class FixManager {
 		$results    = $fixer->apply( $object_ids );
 
 		if ( empty( $results ) ) {
-			return new \WP_Error( 'wcsd_nothing_fixed', __( 'None of these items could be fixed automatically.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_nothing_fixed', __( 'None of these items could be fixed automatically.', 'woocommerce-store-doctor' ) );
 		}
 
 		$batch_id     = 'wcsd_' . substr( wp_generate_password( 12, false, false ), 0, 12 ) . '_' . time();
@@ -133,7 +133,7 @@ class FixManager {
 	/**
 	 * Revert every backup row in a batch that hasn't already been reverted.
 	 *
-	 * @return array{reverted:int}|\WP_Error
+	 * @return array{reverted:int}|\\WP_Error
 	 */
 	public function revert_batch( $batch_id ) {
 		global $wpdb;
@@ -143,14 +143,15 @@ class FixManager {
 		$rows = $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
 				// The table name is a trusted internal SQL identifier; only $batch_id is a placeholder value.
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
+				// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT * FROM " . $table . " WHERE batch_id = %s AND reverted = 0",
+				// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
 				$batch_id
 			)
 		);
 
 		if ( empty( $rows ) ) {
-			return new \WP_Error( 'wcsd_nothing_to_revert', __( 'Nothing to revert for this batch.', 'woocommerce-store-doctor' ) );
+			return new \\WP_Error( 'wcsd_nothing_to_revert', __( 'Nothing to revert for this batch.', 'woocommerce-store-doctor' ) );
 		}
 
 		$reverted = 0;
@@ -188,7 +189,7 @@ class FixManager {
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
 				// The table name is a trusted internal SQL identifier; only $limit is a placeholder value.
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
+				// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT batch_id, fixer,
 					COUNT(*) as total,
 					SUM(reverted) as reverted_count,
@@ -197,6 +198,7 @@ class FixManager {
 				 GROUP BY batch_id, fixer
 				 ORDER BY created_at DESC
 				 LIMIT %d",
+				// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
 				(int) $limit
 			)
 		);
