@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Store Doctor for WooCommerce dashboard screenshot</title>
+<desc id="desc">Illustration of the Store Doctor dashboard showing a health score, issue counts and health history.</desc>
+<rect width="1200" height="720" fill="#f0f0f1"/>
+<rect x="0" y="0" width="1200" height="64" fill="#fff"/>
+<text x="32" y="40" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#1d2327">Store Doctor</text>
+<rect x="32" y="92" width="1136" height="150" rx="6" fill="#fff" stroke="#dcdcde"/>
+<text x="60" y="130" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1d2327">Store Health</text>
+<text x="60" y="195" font-family="Arial,sans-serif" font-size="56" font-weight="700" fill="#2271b1">82</text>
+<text x="145" y="190" font-family="Arial,sans-serif" font-size="16" fill="#50575e">/ 100</text>
+<rect x="260" y="150" width="840" height="18" rx="9" fill="#dcdcde"/>
+<rect x="260" y="150" width="689" height="18" rx="9" fill="#2271b1"/>
+<rect x="32" y="270" width="550" height="390" rx="6" fill="#fff" stroke="#dcdcde"/>
+<text x="60" y="310" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1d2327">Issues</text>
+<text x="60" y="360" font-family="Arial,sans-serif" font-size="16" fill="#50575e">Missing featured images</text>
+<text x="500" y="360" text-anchor="end" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#d63638">7</text>
+<line x1="60" y1="380" x2="550" y2="380" stroke="#dcdcde"/>
+<text x="60" y="425" font-family="Arial,sans-serif" font-size="16" fill="#50575e">Missing categories</text>
+<text x="500" y="425" text-anchor="end" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#d63638">4</text>
+<line x1="60" y1="445" x2="550" y2="445" stroke="#dcdcde"/>
+<text x="60" y="490" font-family="Arial,sans-serif" font-size="16" fill="#50575e">SEO improvements</text>
+<text x="500" y="490" text-anchor="end" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#dba617">9</text>
+<rect x="60" y="535" width="130" height="38" rx="3" fill="#2271b1"/>
+<text x="125" y="560" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#fff">View Issues</text>
+<rect x="610" y="270" width="558" height="390" rx="6" fill="#fff" stroke="#dcdcde"/>
+<text x="638" y="310" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#1d2327">Health History</text>
+<polyline points="650,570 730,525 810,540 890,455 970,475 1050,390 1130,345" fill="none" stroke="#2271b1" stroke-width="4"/>
+<line x1="650" y1="570" x2="1130" y2="570" stroke="#dcdcde"/>
+<line x1="650" y1="390" x2="1130" y2="390" stroke="#f0f0f1"/>
+<line x1="650" y1="480" x2="1130" y2="480" stroke="#f0f0f1"/>
+</svg>
