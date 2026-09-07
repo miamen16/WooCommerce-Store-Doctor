@@ -51,13 +51,14 @@ function wcsd_woocommerce_missing_notice() {
 }
 
 /**
- * Add a native WordPress "View details" link to the plugin row.
+ * Add a "View details" link to the plugin row.
+ *
+ * The plugin-specific action-link filter passes only the actions array.
+ *
+ * @param array $actions Existing plugin row actions.
+ * @return array
  */
-function wcsd_plugin_action_links( $actions, $plugin_file ) {
-	if ( plugin_basename( WCSD_FILE ) !== $plugin_file ) {
-		return $actions;
-	}
-
+function wcsd_plugin_action_links( $actions ) {
 	$details_link = '<a href="#wcsd-plugin-details-modal" class="wcsd-view-details" aria-label="' . esc_attr__( 'View Store Doctor for WooCommerce details', 'store-doctor-for-woocommerce' ) . '">' . esc_html__( 'View details', 'store-doctor-for-woocommerce' ) . '</a>';
 	$actions[]    = $details_link;
 
@@ -67,6 +68,9 @@ add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'wcsd_plugin_a
 
 /**
  * Load the plugin details UI only on the Plugins screen.
+ *
+ * @param string $hook Current admin page hook.
+ * @return void
  */
 function wcsd_plugin_details_assets( $hook ) {
 	if ( 'plugins.php' !== $hook ) {
@@ -80,6 +84,8 @@ add_action( 'admin_enqueue_scripts', 'wcsd_plugin_details_assets' );
 
 /**
  * Render the plugin details modal on the Plugins screen.
+ *
+ * @return void
  */
 function wcsd_plugin_details_modal() {
 	$description = __( 'Store Doctor for WooCommerce scans your store and turns problems into actionable recommendations. It checks product completeness, images, inventory, pricing, basic SEO, store health scoring, issue management and safe auto-fixes.', 'store-doctor-for-woocommerce' );
