@@ -101,9 +101,21 @@ class CategoryFixer extends AbstractFixer {
 	}
 
 	public function revert_one( $backup ) {
+		$product = wc_get_product( (int) $backup->object_id );
 		$term_id = isset( $backup->meta['term_id'] ) ? (int) $backup->meta['term_id'] : (int) $backup->new_value;
-		if ( $term_id ) {
-			wp_remove_object_terms( (int) $backup->object_id, $term_id, 'product_cat' );
+
+		if ( ! $product || ! $term_id ) {
+			return false;
 		}
+
+		$current_terms = wp_get_object_terms( $product->get_id(), 'product_cat', array( 'fields' => 'ids' ) );
+		if ( is_wp_error( $current_terms ) || ! in_array( $term_id, array_map( 'intval', $current_terms ), true ) ) {
+			// The auto-added category was already removed or the product changed
+			// after the fix. Do not make an unrelated taxonomy change.
+			return false;
+		}
+
+		wp_remove_object_terms( $product->get_id(), $term_id, 'product_cat' );
+		return true;
 	}
 }
