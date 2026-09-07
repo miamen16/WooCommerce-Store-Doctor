@@ -20,7 +20,7 @@ class InventoryScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Inventory', 'woocommerce-store-doctor' );
+		return __( 'Inventory', 'store-doctor-for-woocommerce' );
 	}
 
 	public function scan() {
@@ -60,7 +60,7 @@ class InventoryScanner extends AbstractScanner {
 				'suggestion',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" does not have stock management enabled.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" does not have stock management enabled.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -78,7 +78,7 @@ class InventoryScanner extends AbstractScanner {
 				'critical',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" is out of stock.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" is out of stock.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -91,7 +91,7 @@ class InventoryScanner extends AbstractScanner {
 				'critical',
 				sprintf(
 					/* translators: 1: product name, 2: remaining stock quantity */
-					__( 'Product "%1$s" is low on stock (%2$d remaining).', 'woocommerce-store-doctor' ),
+					__( 'Product "%1$s" is low on stock (%2$d remaining).', 'store-doctor-for-woocommerce' ),
 					$product->get_name(),
 					$stock
 				),
