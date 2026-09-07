@@ -47,7 +47,12 @@ abstract class AbstractFixer {
 	/**
 	 * Undo a single change using the stored backup row.
 	 *
+	 * Return false when the original state must NOT be restored because the
+	 * object was changed after the auto-fix. Any other return value means the
+	 * revert was handled and the backup can be marked as reverted.
+	 *
 	 * @param object $backup Row from wp_wcsd_fix_backups (object_id, old_value, new_value, meta[decoded]).
+	 * @return bool|null
 	 */
 	abstract public function revert_one( $backup );
 }
