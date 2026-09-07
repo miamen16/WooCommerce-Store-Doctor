@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Store Doctor for WooCommerce
- * Plugin URI:  https://github.com/miamen16/WooCommerce-Store-Doctor
+ * Plugin URI:  https://github.com/miamen16/store-doctor-for-woocommerce
  * Description: Diagnose your WooCommerce store. Fix what hurts. Grow what works.
  * Version:     1.0.0-alpha
  * Author:      Mohamed
