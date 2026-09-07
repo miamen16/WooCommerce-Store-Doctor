@@ -20,7 +20,7 @@ class PricingScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Pricing', 'woocommerce-store-doctor' );
+		return __( 'Pricing', 'store-doctor-for-woocommerce' );
 	}
 
 	public function scan() {
@@ -62,7 +62,7 @@ class PricingScanner extends AbstractScanner {
 				'critical',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no price set.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has no price set.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -78,7 +78,7 @@ class PricingScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" is priced at $0.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" is priced at $0.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -93,7 +93,7 @@ class PricingScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has a sale price that is not lower than its regular price.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has a sale price that is not lower than its regular price.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
