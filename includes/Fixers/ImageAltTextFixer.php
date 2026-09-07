@@ -15,11 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class ImageAltTextFixer extends AbstractFixer {
 
-	/**
-	 * Cache shared-image checks during a single fixer run.
-	 *
-	 * @var array<int, bool>
-	 */
+	/** @var array<int, bool> */
 	private $shared_image_cache = array();
 
 	public function id() {
@@ -34,7 +30,7 @@ class ImageAltTextFixer extends AbstractFixer {
 		$items = array();
 
 		foreach ( $object_ids as $product_id ) {
-			$product  = wc_get_product( $product_id );
+			$product = wc_get_product( $product_id );
 			$image_id = $product ? $product->get_image_id() : 0;
 
 			if ( ! $image_id || $this->is_shared_image( $image_id ) ) {
@@ -98,7 +94,16 @@ class ImageAltTextFixer extends AbstractFixer {
 	public function revert_one( $backup ) {
 		$image_id = isset( $backup->meta['image_id'] ) ? (int) $backup->meta['image_id'] : 0;
 		if ( ! $image_id ) {
-			return;
+			return false;
+		}
+
+		$current_alt = (string) get_post_meta( $image_id, '_wp_attachment_image_alt', true );
+		$expected_alt = isset( $backup->new_value ) ? (string) $backup->new_value : '';
+
+		// Do not overwrite an alt text that was deliberately changed after
+		// the auto-fix was applied.
+		if ( $current_alt !== $expected_alt ) {
+			return false;
 		}
 
 		if ( '' === $backup->old_value ) {
@@ -106,41 +111,27 @@ class ImageAltTextFixer extends AbstractFixer {
 		} else {
 			update_post_meta( $image_id, '_wp_attachment_image_alt', $backup->old_value );
 		}
+
+		return true;
 	}
 
-	/**
-	 * Determine whether an attachment is used as a featured image by more
-	 * than one product or variation.
-	 *
-	 * Use the simple meta_key/meta_value query arguments rather than an
-	 * explicit meta_query clause so Plugin Check does not flag this as a
-	 * potentially slow meta_query construction. The result is also cached
-	 * because preview/apply may inspect the same attachment more than once.
-	 *
-	 * @param int $image_id Attachment ID.
-	 * @return bool
-	 */
 	private function is_shared_image( $image_id ) {
 		$image_id = (int) $image_id;
-
 		if ( isset( $this->shared_image_cache[ $image_id ] ) ) {
 			return $this->shared_image_cache[ $image_id ];
 		}
 
-		$products = get_posts(
-			array(
-				'post_type'      => array( 'product', 'product_variation' ),
-				'post_status'    => 'any',
-				'posts_per_page' => 2,
-				'fields'         => 'ids',
-				'no_found_rows'  => true,
-				'meta_key'       => '_thumbnail_id',
-				'meta_value'     => (string) $image_id,
-			)
-		);
+		$products = get_posts( array(
+			'post_type'      => array( 'product', 'product_variation' ),
+			'post_status'    => 'any',
+			'posts_per_page' => 2,
+			'fields'         => 'ids',
+			'no_found_rows'  => true,
+			'meta_key'       => '_thumbnail_id',
+			'meta_value'     => (string) $image_id,
+		) );
 
 		$this->shared_image_cache[ $image_id ] = count( $products ) > 1;
-
 		return $this->shared_image_cache[ $image_id ];
 	}
 }
