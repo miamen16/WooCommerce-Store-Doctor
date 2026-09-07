@@ -18,7 +18,7 @@ class ImageScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'Images', 'woocommerce-store-doctor' );
+		return __( 'Images', 'store-doctor-for-woocommerce' );
 	}
 
 	public function scan() {
@@ -42,7 +42,7 @@ class ImageScanner extends AbstractScanner {
 					'critical',
 					sprintf(
 						/* translators: %s: product name */
-						__( 'Product "%s" has no featured image.', 'woocommerce-store-doctor' ),
+						__( 'Product "%s" has no featured image.', 'store-doctor-for-woocommerce' ),
 						$product->get_name()
 					),
 					'product',
@@ -58,7 +58,7 @@ class ImageScanner extends AbstractScanner {
 					'warning',
 					sprintf(
 						/* translators: %s: product name */
-						__( 'Product "%s" has no gallery images.', 'woocommerce-store-doctor' ),
+						__( 'Product "%s" has no gallery images.', 'store-doctor-for-woocommerce' ),
 						$product->get_name()
 					),
 					'product',
