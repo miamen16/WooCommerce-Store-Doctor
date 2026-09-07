@@ -15,119 +15,84 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class IssueManager {
 
-	/**
-	 * Replace all stored issues for one scanner with a freshly scanned set.
-	 *
-	 * @param string $scanner_id
-	 * @param array  $issues
-	 */
+	// Trusted SQL table identifiers are generated internally by Database; dynamic values use prepare().
+	// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
+
 	public function replace_for_scanner( $scanner_id, array $issues ) {
 		global $wpdb;
 		$table = Database::issues_table();
 		$now   = current_time( 'mysql' );
-
-		// Wipe this scanner's previous snapshot.
 		$wpdb->delete( $table, array( 'scanner' => $scanner_id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
-
 		foreach ( $issues as $issue ) {
-			$wpdb->insert( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
-				$table,
-				array(
-					'scanner'     => $scanner_id,
-					'type'        => $issue['type'],
-					'severity'    => $issue['severity'],
-					'object_type' => $issue['object_type'],
-					'object_id'   => $issue['object_id'],
-					'message'     => $issue['message'],
-					'fixable'     => ! empty( $issue['fixable'] ) ? 1 : 0,
-					'fixer'       => $issue['fixer'],
-					'status'      => 'open',
-					'meta'        => ! empty( $issue['meta'] ) ? wp_json_encode( $issue['meta'] ) : null,
-					'created_at'  => $now,
-					'updated_at'  => $now,
-				)
-			);
+			$wpdb->insert( $table, array(
+				'scanner' => $scanner_id,
+				'type' => $issue['type'],
+				'severity' => $issue['severity'],
+				'object_type' => $issue['object_type'],
+				'object_id' => $issue['object_id'],
+				'message' => $issue['message'],
+				'fixable' => ! empty( $issue['fixable'] ) ? 1 : 0,
+				'fixer' => $issue['fixer'],
+				'status' => 'open',
+				'meta' => ! empty( $issue['meta'] ) ? wp_json_encode( $issue['meta'] ) : null,
+				'created_at' => $now,
+				'updated_at' => $now,
+			) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 		}
 	}
 
-	/**
-	 * Fetch open issues, optionally filtered by severity and/or scanner.
-	 */
 	public function get_issues( $args = array() ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		$defaults = array(
 			'severity' => null,
-			'scanner'  => null,
-			'status'   => 'open',
-			'orderby'  => 'severity',
-			'limit'    => 200,
+			'scanner' => null,
+			'status' => 'open',
+			'orderby' => 'severity',
+			'limit' => 200,
 		);
 		$args = wp_parse_args( $args, $defaults );
-
-		$where  = array( '1=1' );
+		$where = array( '1=1' );
 		$params = array();
-
 		if ( $args['status'] ) {
-			$where[]  = 'status = %s';
+			$where[] = 'status = %s';
 			$params[] = $args['status'];
 		}
 		if ( $args['severity'] ) {
-			$where[]  = 'severity = %s';
+			$where[] = 'severity = %s';
 			$params[] = $args['severity'];
 		}
 		if ( $args['scanner'] ) {
-			$where[]  = 'scanner = %s';
+			$where[] = 'scanner = %s';
 			$params[] = $args['scanner'];
 		}
-
-		// $table is generated internally by Database::issues_table() and is
-		// never populated from request data. It is a trusted SQL identifier.
 		$sql = 'SELECT * FROM ' . $table . ' WHERE ' . implode( ' AND ', $where )
 			. ' ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), id DESC'
 			. ' LIMIT %d';
 		$params[] = (int) $args['limit'];
-
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQLPlaceholders, PluginCheck.Security.DirectDB.UnescapedDBParameter
-			// $sql contains only internally generated SQL plus placeholders for all dynamic values.
-			$wpdb->prepare( $sql, $params ) // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+			$wpdb->prepare( $sql, $params )
 		);
 	}
 
-	/**
-	 * Group counts by "type" for the Issue Center table
-	 * (e.g. "Missing images: 127 products").
-	 */
 	public function get_grouped_summary() {
 		global $wpdb;
 		$table = Database::issues_table();
-
-		// The table identifier is generated internally by Database and is not
-		// user-controlled; prepare() cannot safely substitute SQL identifiers.
-		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT type, severity, scanner, COUNT(*) as total, MAX(fixable) as fixable
 			 FROM ' . $table . '
 			 WHERE status = \'open\'
 			 GROUP BY type, severity, scanner
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\'), total DESC';
-
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$sql
 		);
 	}
 
-	/**
-	 * Open issues of one type, e.g. all 'missing_category' rows. Used by the
-	 * Fix Engine to know which objects/issue-ids a fixer run should touch.
-	 */
 	public function get_issues_by_type( $type, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT id, object_type, object_id, fixer FROM {$table} WHERE type = %s AND status = %s",
 				$type,
 				$status
@@ -135,101 +100,59 @@ class IssueManager {
 		);
 	}
 
-	/**
-	 * Distinct product IDs with an open issue of one exact type, e.g. every
-	 * product behind the "zero_price" row in the Issue Center. Used to build
-	 * the "click the count -> filtered product list" links.
-	 */
 	public function get_object_ids_by_type( $type, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT DISTINCT object_id FROM {$table} WHERE type = %s AND status = %s AND object_type = 'product'",
 				$type,
 				$status
 			)
 		);
-
 		return array_map( 'intval', $ids );
 	}
 
-	/**
-	 * Distinct product IDs with ANY open issue from one scanner, e.g. every
-	 * product behind the "Products" category score on the Dashboard.
-	 */
 	public function get_object_ids_by_scanner( $scanner, $status = 'open' ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		$ids = $wpdb->get_col( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare(
-				// phpcs:ignore WordPress.DB.PreparedSQL.InterpolatedNotPrepared, WordPress.DB.PreparedSQL.NotPrepared
 				"SELECT DISTINCT object_id FROM {$table} WHERE scanner = %s AND status = %s AND object_type = 'product'",
 				$scanner,
 				$status
 			)
 		);
-
 		return array_map( 'intval', $ids );
 	}
 
-	/**
-	 * All open issues belonging to a given set of object IDs (e.g. one
-	 * vendor's product IDs), regardless of type or scanner. Used by
-	 * VendorHealth to compute a per-vendor score from the store-wide scan
-	 * data without re-scanning.
-	 *
-	 * @param int[] $object_ids
-	 */
 	public function get_open_issues_for_objects( array $object_ids ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		if ( empty( $object_ids ) ) {
 			return array();
 		}
-
 		$placeholders = implode( ',', array_fill( 0, count( $object_ids ), '%d' ) );
-
-		// The table identifier is trusted; placeholders cover the dynamic object IDs.
-		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT severity FROM ' . $table . ' WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')';
-
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare( $sql, $object_ids )
 		);
 	}
 
-	/**
-	 * Full issue rows (scanner, type, severity, message, object_id) for a
-	 * given set of object IDs — used to build a vendor's own issue list on
-	 * their Dokan dashboard tab.
-	 *
-	 * @param int[] $object_ids
-	 */
 	public function get_open_issues_details_for_objects( array $object_ids, $limit = 200 ) {
 		global $wpdb;
 		$table = Database::issues_table();
-
 		if ( empty( $object_ids ) ) {
 			return array();
 		}
-
 		$placeholders = implode( ',', array_fill( 0, count( $object_ids ), '%d' ) );
-		$params       = $object_ids;
-		$params[]     = (int) $limit;
-
-		// The table identifier is trusted; placeholders cover the dynamic object IDs and limit.
-		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
+		$params = $object_ids;
+		$params[] = (int) $limit;
 		$sql = 'SELECT scanner, type, severity, message, object_id FROM ' . $table . '
 			 WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\')
 			 LIMIT %d';
-
-		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
+		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, PluginCheck.Security.DirectDB.UnescapedDBParameter
 			$wpdb->prepare( $sql, $params )
 		);
 	}
@@ -237,13 +160,11 @@ class IssueManager {
 	public function mark_resolved( $issue_id ) {
 		global $wpdb;
 		$table = Database::issues_table();
-		return $wpdb->update( // phpcs:ignore WordPress.DB.DirectDatabaseQuery
-			$table,
-			array(
-				'status'     => 'resolved',
-				'updated_at' => current_time( 'mysql' ),
-			),
-			array( 'id' => (int) $issue_id )
-		);
+		return $wpdb->update( $table, array(
+			'status' => 'resolved',
+			'updated_at' => current_time( 'mysql' ),
+		), array( 'id' => (int) $issue_id ) ); // phpcs:ignore WordPress.DB.DirectDatabaseQuery
 	}
+
+	// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
 }
