@@ -66,7 +66,7 @@ class FeaturedImageFixer extends AbstractFixer {
 				continue;
 			}
 
-			$new_featured = $gallery_ids[0];
+			$new_featured = (int) $gallery_ids[0];
 			$remaining    = array_slice( $gallery_ids, 1 );
 
 			$product->set_image_id( $new_featured );
@@ -90,7 +90,16 @@ class FeaturedImageFixer extends AbstractFixer {
 			return;
 		}
 
-		$previous_gallery = isset( $backup->meta['previous_gallery'] ) ? $backup->meta['previous_gallery'] : array();
+		$expected_featured = isset( $backup->new_value ) ? (int) $backup->new_value : 0;
+		$current_featured  = (int) $product->get_image_id();
+
+		// Do not overwrite a featured image that was deliberately changed
+		// after the auto-fix was applied.
+		if ( $expected_featured && $current_featured !== $expected_featured ) {
+			return;
+		}
+
+		$previous_gallery = isset( $backup->meta['previous_gallery'] ) ? array_map( 'intval', (array) $backup->meta['previous_gallery'] ) : array();
 
 		$product->set_image_id( '' );
 		$product->set_gallery_image_ids( $previous_gallery );
