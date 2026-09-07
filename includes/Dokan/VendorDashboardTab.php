@@ -43,7 +43,7 @@ class VendorDashboardTab {
 
 	public function register_nav_item( $urls ) {
 		$urls[ self::ENDPOINT ] = array(
-			'title' => __( 'Store Health', 'woocommerce-store-doctor' ),
+			'title' => __( 'Store Health', 'store-doctor-for-woocommerce' ),
 			'icon'  => '<i class="fas fa-heartbeat"></i>',
 			'url'   => function_exists( 'dokan_get_navigation_url' ) ? dokan_get_navigation_url( self::ENDPOINT ) : '',
 			'pos'   => 51,
