@@ -10,7 +10,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Fixes 'missing_image_alt' issues by setting the featured image's alt
- * text to the product name — a safe, reversible default.
+ * text to the product name — a safe, reversible default when the image
+ * belongs to one product only.
  */
 class ImageAltTextFixer extends AbstractFixer {
 
@@ -27,7 +28,9 @@ class ImageAltTextFixer extends AbstractFixer {
 
 		foreach ( $object_ids as $product_id ) {
 			$product = wc_get_product( $product_id );
-			if ( ! $product || ! $product->get_image_id() ) {
+			$image_id = $product ? $product->get_image_id() : 0;
+
+			if ( ! $image_id || $this->is_shared_image( $image_id ) ) {
 				continue;
 			}
 
@@ -43,21 +46,18 @@ class ImageAltTextFixer extends AbstractFixer {
 	}
 
 	public function apply( array $object_ids ) {
-		$results          = array();
+		$results           = array();
 		$product_image_map = array();
-		$image_old_values = array();
+		$image_old_values  = array();
 
-		// First pass: resolve product -> image, and snapshot each DISTINCT
-		// image's original alt text BEFORE any writes happen. This matters
-		// because multiple products can share the same featured image (common
-		// in seeded/demo catalogs) — reading "old value" mid-loop would pick
-		// up a value another product in this same batch just wrote, not the
-		// true original, which then corrupts revert.
+		// Only auto-fix images that belong to one product. Attachment alt text
+		// is global, so changing a shared image to match one product would also
+		// change the alt text displayed for every other product using it.
 		foreach ( $object_ids as $product_id ) {
 			$product  = wc_get_product( $product_id );
 			$image_id = $product ? $product->get_image_id() : 0;
 
-			if ( ! $image_id ) {
+			if ( ! $image_id || $this->is_shared_image( $image_id ) ) {
 				continue;
 			}
 
@@ -68,11 +68,13 @@ class ImageAltTextFixer extends AbstractFixer {
 			}
 		}
 
-		// Second pass: write the new alt text using the true pre-change snapshot.
 		foreach ( $product_image_map as $product_id => $image_id ) {
 			$product = wc_get_product( $product_id );
-			$new_alt = $product->get_name();
+			if ( ! $product ) {
+				continue;
+			}
 
+			$new_alt = $product->get_name();
 			update_post_meta( $image_id, '_wp_attachment_image_alt', $new_alt );
 
 			$results[] = array(
@@ -97,5 +99,24 @@ class ImageAltTextFixer extends AbstractFixer {
 		} else {
 			update_post_meta( $image_id, '_wp_attachment_image_alt', $backup->old_value );
 		}
+	}
+
+	private function is_shared_image( $image_id ) {
+		$products = get_posts( array(
+			'post_type'      => array( 'product', 'product_variation' ),
+			'post_status'    => 'any',
+			'posts_per_page' => 2,
+			'fields'         => 'ids',
+			'no_found_rows'  => true,
+			'meta_query'     => array(
+				array(
+					'key'     => '_thumbnail_id',
+					'value'   => (string) $image_id,
+					'compare' => '=',
+				),
+			),
+		) );
+
+		return count( $products ) > 1;
 	}
 }
