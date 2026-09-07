@@ -20,7 +20,7 @@ class SEOScanner extends AbstractScanner {
 	}
 
 	public function label() {
-		return __( 'SEO', 'woocommerce-store-doctor' );
+		return __( 'SEO', 'store-doctor-for-woocommerce' );
 	}
 
 	public function scan() {
@@ -56,7 +56,7 @@ class SEOScanner extends AbstractScanner {
 				'suggestion',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has a very short title, which may hurt search visibility.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has a very short title, which may hurt search visibility.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -71,7 +71,7 @@ class SEOScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no short description (often used as the meta description).', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" has no short description (often used as the meta description).', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
@@ -87,7 +87,7 @@ class SEOScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" featured image has no alt text.', 'woocommerce-store-doctor' ),
+					__( 'Product "%s" featured image has no alt text.', 'store-doctor-for-woocommerce' ),
 					$product->get_name()
 				),
 				'product',
