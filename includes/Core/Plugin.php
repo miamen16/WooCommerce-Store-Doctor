@@ -97,7 +97,7 @@ class Plugin {
 		check_ajax_referer( 'wcsd_admin', 'nonce' );
 
 		if ( ! current_user_can( 'manage_woocommerce' ) ) {
-			wp_send_json_error( array( 'message' => __( 'Insufficient permissions.', 'woocommerce-store-doctor' ) ), 403 );
+			wp_send_json_error( array( 'message' => __( 'Insufficient permissions.', 'store-doctor-for-woocommerce' ) ), 403 );
 		}
 	}
 
@@ -122,7 +122,7 @@ class Plugin {
 		// Nonce is verified by guard() before this request data is processed.
 		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $issue_type ) {
-			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'woocommerce-store-doctor' ) ), 400 );
+			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'store-doctor-for-woocommerce' ) ), 400 );
 		}
 
 		$result = $this->fix_manager->preview_for_type( $issue_type );
@@ -144,7 +144,7 @@ class Plugin {
 		// Nonce is verified by guard() before this request data is processed.
 		$issue_type = isset( $_POST['issue_type'] ) ? sanitize_key( wp_unslash( $_POST['issue_type'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $issue_type ) {
-			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'woocommerce-store-doctor' ) ), 400 );
+			wp_send_json_error( array( 'message' => __( 'Missing issue type.', 'store-doctor-for-woocommerce' ) ), 400 );
 		}
 
 		$result = $this->fix_manager->apply_for_type( $issue_type );
@@ -165,7 +165,7 @@ class Plugin {
 		// Nonce is verified by guard() before this request data is processed.
 		$batch_id = isset( $_POST['batch_id'] ) ? sanitize_text_field( wp_unslash( $_POST['batch_id'] ) ) : ''; // phpcs:ignore WordPress.Security.NonceVerification.Missing
 		if ( ! $batch_id ) {
-			wp_send_json_error( array( 'message' => __( 'Missing batch id.', 'woocommerce-store-doctor' ) ), 400 );
+			wp_send_json_error( array( 'message' => __( 'Missing batch id.', 'store-doctor-for-woocommerce' ) ), 400 );
 		}
 
 		$result = $this->fix_manager->revert_batch( $batch_id );
