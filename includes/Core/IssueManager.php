@@ -105,6 +105,7 @@ class IssueManager {
 
 		// The table identifier is generated internally by Database and is not
 		// user-controlled; prepare() cannot safely substitute SQL identifiers.
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT type, severity, scanner, COUNT(*) as total, MAX(fixable) as fixable
 			 FROM ' . $table . '
 			 WHERE status = \'open\'
@@ -193,6 +194,8 @@ class IssueManager {
 
 		$placeholders = implode( ',', array_fill( 0, count( $object_ids ), '%d' ) );
 
+		// The table identifier is trusted; placeholders cover the dynamic object IDs.
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT severity FROM ' . $table . ' WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')';
 
 		return $wpdb->get_results( // phpcs:ignore WordPress.DB.DirectDatabaseQuery, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
@@ -219,6 +222,8 @@ class IssueManager {
 		$params       = $object_ids;
 		$params[]     = (int) $limit;
 
+		// The table identifier is trusted; placeholders cover the dynamic object IDs and limit.
+		// phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
 		$sql = 'SELECT scanner, type, severity, message, object_id FROM ' . $table . '
 			 WHERE status = \'open\' AND object_type = \'product\' AND object_id IN (' . $placeholders . ')
 			 ORDER BY FIELD(severity, \'critical\',\'warning\',\'suggestion\')
