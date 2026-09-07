@@ -9,9 +9,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 $wcsd_severity_labels = array(
-	'critical'   => __( 'Critical', 'woocommerce-store-doctor' ),
-	'warning'    => __( 'Warning', 'woocommerce-store-doctor' ),
-	'suggestion' => __( 'Suggestion', 'woocommerce-store-doctor' ),
+	'critical'   => __( 'Critical', 'store-doctor-for-woocommerce' ),
+	'warning'    => __( 'Warning', 'store-doctor-for-woocommerce' ),
+	'suggestion' => __( 'Suggestion', 'store-doctor-for-woocommerce' ),
 );
 
 $wcsd_severity_icons = array(
@@ -21,18 +21,18 @@ $wcsd_severity_icons = array(
 );
 ?>
 <div class="wrap wcsd-wrap">
-	<h1><?php esc_html_e( 'Issue Center', 'woocommerce-store-doctor' ); ?></h1>
+	<h1><?php esc_html_e( 'Issue Center', 'store-doctor-for-woocommerce' ); ?></h1>
 
 	<?php if ( empty( $grouped ) ) : ?>
-		<p><?php esc_html_e( 'No open issues found. Run a scan from the Dashboard to check your store.', 'woocommerce-store-doctor' ); ?></p>
+		<p><?php esc_html_e( 'No open issues found. Run a scan from the Dashboard to check your store.', 'store-doctor-for-woocommerce' ); ?></p>
 	<?php else : ?>
 		<table class="widefat striped">
 			<thead>
 				<tr>
-					<th><?php esc_html_e( 'Issue', 'woocommerce-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Products', 'woocommerce-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Severity', 'woocommerce-store-doctor' ); ?></th>
-					<th><?php esc_html_e( 'Action', 'woocommerce-store-doctor' ); ?></th>
+					<th><?php esc_html_e( 'Issue', 'store-doctor-for-woocommerce' ); ?></th>
+					<th><?php esc_html_e( 'Products', 'store-doctor-for-woocommerce' ); ?></th>
+					<th><?php esc_html_e( 'Severity', 'store-doctor-for-woocommerce' ); ?></th>
+					<th><?php esc_html_e( 'Action', 'store-doctor-for-woocommerce' ); ?></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -58,10 +58,10 @@ $wcsd_severity_icons = array(
 									data-issue-type="<?php echo esc_attr( $wcsd_row->type ); ?>"
 									data-issue-label="<?php echo esc_attr( ucwords( str_replace( '_', ' ', $wcsd_row->type ) ) ); ?>"
 								>
-									<?php esc_html_e( 'Fix', 'woocommerce-store-doctor' ); ?>
+									<?php esc_html_e( 'Fix', 'store-doctor-for-woocommerce' ); ?>
 								</button>
 							<?php else : ?>
-								<span class="description"><?php esc_html_e( 'Manual review', 'woocommerce-store-doctor' ); ?></span>
+								<span class="description"><?php esc_html_e( 'Manual review', 'store-doctor-for-woocommerce' ); ?></span>
 							<?php endif; ?>
 						</td>
 					</tr>
@@ -70,19 +70,19 @@ $wcsd_severity_icons = array(
 		</table>
 	<?php endif; ?>
 
-	<h2><?php esc_html_e( 'Recent Fixes', 'woocommerce-store-doctor' ); ?></h2>
+	<h2><?php esc_html_e( 'Recent Fixes', 'store-doctor-for-woocommerce' ); ?></h2>
 	<div class="wcsd-recent-fixes">
 		<?php if ( empty( $batches ) ) : ?>
-			<p><?php esc_html_e( 'No fixes applied yet.', 'woocommerce-store-doctor' ); ?></p>
+			<p><?php esc_html_e( 'No fixes applied yet.', 'store-doctor-for-woocommerce' ); ?></p>
 		<?php else : ?>
 			<table class="widefat striped">
 				<thead>
 					<tr>
-						<th><?php esc_html_e( 'Date', 'woocommerce-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Fixer', 'woocommerce-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Items', 'woocommerce-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Status', 'woocommerce-store-doctor' ); ?></th>
-						<th><?php esc_html_e( 'Action', 'woocommerce-store-doctor' ); ?></th>
+						<th><?php esc_html_e( 'Date', 'store-doctor-for-woocommerce' ); ?></th>
+						<th><?php esc_html_e( 'Fixer', 'store-doctor-for-woocommerce' ); ?></th>
+						<th><?php esc_html_e( 'Items', 'store-doctor-for-woocommerce' ); ?></th>
+						<th><?php esc_html_e( 'Status', 'store-doctor-for-woocommerce' ); ?></th>
+						<th><?php esc_html_e( 'Action', 'store-doctor-for-woocommerce' ); ?></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -95,22 +95,22 @@ $wcsd_severity_icons = array(
 							<td>
 								<?php
 								if ( $wcsd_fully_reverted ) {
-									esc_html_e( 'Reverted', 'woocommerce-store-doctor' );
+									esc_html_e( 'Reverted', 'store-doctor-for-woocommerce' );
 								} elseif ( (int) $wcsd_batch->reverted_count > 0 ) {
 									printf(
 										/* translators: %d: number of items reverted */
-										esc_html__( 'Partially reverted (%d)', 'woocommerce-store-doctor' ),
+										esc_html__( 'Partially reverted (%d)', 'store-doctor-for-woocommerce' ),
 										(int) $wcsd_batch->reverted_count
 									);
 								} else {
-									esc_html_e( 'Applied', 'woocommerce-store-doctor' );
+									esc_html_e( 'Applied', 'store-doctor-for-woocommerce' );
 								}
 								?>
 							</td>
 							<td>
 								<?php if ( ! $wcsd_fully_reverted ) : ?>
 									<button type="button" class="button wcsd-revert-button" data-batch-id="<?php echo esc_attr( $wcsd_batch->batch_id ); ?>">
-										<?php esc_html_e( 'Revert', 'woocommerce-store-doctor' ); ?>
+										<?php esc_html_e( 'Revert', 'store-doctor-for-woocommerce' ); ?>
 									</button>
 								<?php else : ?>
 									<span class="description">—</span>
@@ -128,11 +128,11 @@ $wcsd_severity_icons = array(
 	<div class="wcsd-modal">
 		<h2 id="wcsd-fix-modal-title"></h2>
 		<div id="wcsd-fix-modal-body">
-			<p class="wcsd-modal-loading"><?php esc_html_e( 'Loading preview…', 'woocommerce-store-doctor' ); ?></p>
+			<p class="wcsd-modal-loading"><?php esc_html_e( 'Loading preview…', 'store-doctor-for-woocommerce' ); ?></p>
 		</div>
 		<div class="wcsd-modal-actions">
-			<button type="button" class="button" id="wcsd-fix-modal-cancel"><?php esc_html_e( 'Cancel', 'woocommerce-store-doctor' ); ?></button>
-			<button type="button" class="button button-primary" id="wcsd-fix-modal-apply" disabled><?php esc_html_e( 'Apply Changes', 'woocommerce-store-doctor' ); ?></button>
+			<button type="button" class="button" id="wcsd-fix-modal-cancel"><?php esc_html_e( 'Cancel', 'store-doctor-for-woocommerce' ); ?></button>
+			<button type="button" class="button button-primary" id="wcsd-fix-modal-apply" disabled><?php esc_html_e( 'Apply Changes', 'store-doctor-for-woocommerce' ); ?></button>
 		</div>
 	</div>
 </div>
