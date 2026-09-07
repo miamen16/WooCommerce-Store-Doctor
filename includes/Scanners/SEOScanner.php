@@ -10,8 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /**
  * Basic on-page SEO checks that don't require a dedicated SEO plugin:
- * short product title, missing image alt text, missing short description
- * (used as the "excerpt"/meta description fallback by many themes).
+ * short product title, missing image alt text, and missing short description.
  */
 class SEOScanner extends AbstractScanner {
 
@@ -49,15 +48,17 @@ class SEOScanner extends AbstractScanner {
 	private function check_seo( \WC_Product $product ) {
 		$issues = array();
 		$id     = $product->get_id();
+		$title  = $product->get_name();
+		$length = function_exists( 'mb_strlen' ) ? mb_strlen( $title ) : strlen( $title );
 
-		if ( strlen( $product->get_name() ) < 10 ) {
+		if ( $length < 10 ) {
 			$issues[] = $this->make_issue(
 				'short_title',
 				'suggestion',
 				sprintf(
 					/* translators: %s: product name */
 					__( 'Product "%s" has a very short title, which may hurt search visibility.', 'store-doctor-for-woocommerce' ),
-					$product->get_name()
+					$title
 				),
 				'product',
 				$id,
@@ -71,8 +72,8 @@ class SEOScanner extends AbstractScanner {
 				'warning',
 				sprintf(
 					/* translators: %s: product name */
-					__( 'Product "%s" has no short description (often used as the meta description).', 'store-doctor-for-woocommerce' ),
-					$product->get_name()
+					__( 'Product "%s" has no short description. Add one to provide a concise product summary for customers and themes.', 'store-doctor-for-woocommerce' ),
+					$title
 				),
 				'product',
 				$id,
@@ -88,7 +89,7 @@ class SEOScanner extends AbstractScanner {
 				sprintf(
 					/* translators: %s: product name */
 					__( 'Product "%s" featured image has no alt text.', 'store-doctor-for-woocommerce' ),
-					$product->get_name()
+					$title
 				),
 				'product',
 				$id,
