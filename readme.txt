@@ -4,7 +4,7 @@ Tags: woocommerce, diagnostics, store health, seo, inventory
 Requires PHP: 7.4
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 1.0.0-alpha
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,42 +15,52 @@ Diagnose your WooCommerce store. Fix what hurts. Grow what works.
 Store Doctor for WooCommerce scans your store and turns problems into:
 Issue -> Explanation -> Recommendation -> Fix.
 
-This is Phase 1-7 of the build (Core Architecture, Scanner Engine,
-Health Score, Issue Center, Product Health, Auto Fix Engine,
-Reports + History Graph) covering the MVP scanners:
+The current release includes the core scanner engine, health scoring,
+issue center, product health checks, auto-fix engine, reports/history,
+and Dokan vendor health integration.
+
+Included scanners:
 
 * Product completeness (title, description, SKU, category, cross-sells)
 * Images (featured image, gallery)
-* Inventory (stock status, low stock, unmanaged stock)
-* Pricing (missing price, $0 price, invalid sale price)
+* Inventory (stock status, low stock, unmanaged stock, including variations)
+* Pricing (missing price, zero price, invalid sale price, including variations)
 * Basic SEO (short titles, missing short description, missing alt text)
 
 == Architecture ==
 
-woocommerce-store-doctor.php     Bootstrap, autoloader, activation/deactivation
+store-doctor-for-woocommerce.php Bootstrap, autoloader, activation/deactivation
 includes/Core/
     Plugin.php                   Singleton that wires everything together
-    Database.php                 Custom table schema (wp_wcsd_issues, wp_wcsd_health_history)
+    Database.php                 Custom table schema
+                                  (wp_wcsd_issues, wp_wcsd_health_history,
+                                  wp_wcsd_fix_backups)
     AbstractScanner.php          Base class every scanner extends
     Scanner.php                  Runs all registered scanners, computes results
     IssueManager.php             Persists/reads issues
     ScoreManager.php             Overall score + history
     Scheduler.php                Daily cron scan
+    VendorHealth.php             Vendor health aggregation for Dokan stores
 includes/Scanners/               ProductScanner, ImageScanner, InventoryScanner,
                                   PricingScanner, SEOScanner
 includes/Core/
     AbstractFixer.php            Base class every fixer extends
     FixManager.php               Registry + preview/apply/revert orchestration,
-                                  backup bookkeeping (wp_wcsd_fix_backups)
+                                  backup bookkeeping
 includes/Fixers/                 CategoryFixer, FeaturedImageFixer, ImageAltTextFixer
 includes/Admin/
     Dashboard.php                Admin menu + screens
-templates/                       dashboard.php, issues.php (incl. fix modal + revert)
+    ProductFilter.php            Native Products-list filtering
+    VendorsPage.php               Admin vendor health screen
+includes/Dokan/
+    VendorDashboardTab.php       Dokan vendor Store Health dashboard endpoint
+
+templates/                       Dashboard, issues, vendors and Dokan health views
 assets/                          admin.css, admin.js
 
 == Extending ==
 
-To add a new scanner (e.g. a future Dokan vendor-health scanner):
+To add a new scanner:
 
 1. Create includes/Scanners/YourScanner.php extending AbstractScanner.
 2. Implement id(), label(), and scan() (return an array of issues via
@@ -90,7 +100,6 @@ No core files need to change for either.
 == Roadmap ==
 
 Phase 8  AI Doctor (Pro) — natural-language "why is my score low / what should I fix first"
-Phase 9  Dokan vendor health integration
 
 == Notes on current implementation ==
 
@@ -101,37 +110,25 @@ Phase 9  Dokan vendor health integration
   types: missing_category (assigns the default/Uncategorized term),
   missing_featured_image (promotes the first gallery image — skipped
   if there is no gallery image to promote), missing_image_alt (sets
-  alt text to the product name). Everything else stays "Manual review"
+  alt text to the product name only when the featured image is not shared
+  by multiple products/variations). Everything else stays "Manual review"
   by design — auto-writing a description or SKU would be guessing.
-* Score formula: normalized by how many objects a scanner actually
-  checked (average weighted issues per object via
-  100 / (1 + average)), not raw issue count — otherwise stores with
-  hundreds of products floor to 0 the moment a modest fraction share
-  one minor issue. Found and fixed via live testing against a
-  133-product catalog (overall score went from an unrealistic 12/100,
-  with 4 of 5 categories pinned at 0, to a meaningful 29/100 with real
-  spread across categories).
-* ImageAltTextFixer snapshots each image's original alt text in a
-  first pass, BEFORE any writes, rather than reading "old value"
-  mid-loop. Found via live testing: when two products share the same
-  featured image (common in seeded/demo catalogs), reading old value
-  product-by-product mid-loop meant the second product's "old value"
-  was actually the first product's just-written new value — corrupting
-  the backup and causing Revert to restore the wrong intermediate
-  state instead of the true original. Fixed by resolving all
-  product->image mappings and snapshotting each distinct image's alt
-  text before any update_post_meta() call runs.
+* Inventory and pricing scanners inspect variable product variations
+  individually so variation-level stock and price problems are not missed.
+* ImageAltTextFixer snapshots the original alt text before writing and
+  skips shared featured images because attachment alt text is global and
+  cannot safely represent multiple product names.
 * Click-to-filter: the "Products" count on each Issue Center row, and
   each category score on the Dashboard, link into WordPress's native
   Products list (edit.php?post_type=product) pre-filtered via
   post__in to exactly the affected products — implemented in
   includes/Admin/ProductFilter.php, hooking pre_get_posts. No
   separate custom screen; search/sort/bulk-actions on the native list
-  keep working normally. Verified end-to-end on the live site against
-  the actual $wp_query / $wp_the_query identity WordPress relies on
-  for is_main_query().
+  keep working normally.
 * Store Health History graph: a small hand-rolled canvas line chart
   (no external charting library — keeps the plugin dependency-free)
-  showing the overall score trend, above the existing history table
-  on the Dashboard. Redraws on window resize; scales for high-DPI
-  screens via devicePixelRatio.
+  showing the overall score trend on the Dashboard. Redraws on window
+  resize and scales for high-DPI screens via devicePixelRatio.
+* Dokan integration adds an admin vendor-health screen and a Store Health
+  endpoint inside the Dokan vendor dashboard. Vendor data is restricted
+  to the vendor's own products on the vendor endpoint.
