@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * preview/apply/revert, and keep the backup + issue-status bookkeeping straight.
  */
 // Database table identifiers are generated internally by Database; dynamic values use prepare().
-// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
+// phpcs:disable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
 class FixManager {
 
 	/** @var AbstractFixer[] */
@@ -154,4 +154,4 @@ class FixManager {
 		) );
 	}
 }
-// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared
+// phpcs:enable WordPress.DB.DirectDatabaseQuery, WordPress.DB.DirectDatabaseQuery.NoCaching, WordPress.DB.PreparedSQL.NotPrepared, PluginCheck.Security.DirectDB.UnescapedDBParameter
