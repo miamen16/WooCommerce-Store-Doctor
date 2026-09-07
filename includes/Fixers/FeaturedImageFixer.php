@@ -87,7 +87,7 @@ class FeaturedImageFixer extends AbstractFixer {
 	public function revert_one( $backup ) {
 		$product = wc_get_product( (int) $backup->object_id );
 		if ( ! $product ) {
-			return;
+			return false;
 		}
 
 		$expected_featured = isset( $backup->new_value ) ? (int) $backup->new_value : 0;
@@ -96,7 +96,7 @@ class FeaturedImageFixer extends AbstractFixer {
 		// Do not overwrite a featured image that was deliberately changed
 		// after the auto-fix was applied.
 		if ( $expected_featured && $current_featured !== $expected_featured ) {
-			return;
+			return false;
 		}
 
 		$previous_gallery = isset( $backup->meta['previous_gallery'] ) ? array_map( 'intval', (array) $backup->meta['previous_gallery'] ) : array();
@@ -104,5 +104,7 @@ class FeaturedImageFixer extends AbstractFixer {
 		$product->set_image_id( '' );
 		$product->set_gallery_image_ids( $previous_gallery );
 		$product->save();
+
+		return true;
 	}
 }
